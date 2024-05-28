@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Net\Net\MsgAdapter.cs" />
     <Compile Include="Assets\Scripts\AwaitExtensions.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Procedure\InitProcedure.cs" />
+    <Compile Include="Assets\Scripts\Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Nirvana\Shaders\UI-Effect.shader" />
