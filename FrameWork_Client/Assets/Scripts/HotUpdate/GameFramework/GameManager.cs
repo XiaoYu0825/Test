@@ -1,3 +1,4 @@
+using Config;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
@@ -7,14 +8,23 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     [Module(1)]
-    public static ProcedureModule Procedure { get => TGameFramework.Instance.GetModule<ProcedureModule>(); }//获取特定类型的模块实例
-
+    public static AssetModule Asset { get => TGameFramework.Instance.GetModule<AssetModule>(); }
 
     [Module(2)]
+    public static ProcedureModule Procedure { get => TGameFramework.Instance.GetModule<ProcedureModule>(); }//获取特定类型的模块实例
+
+    [Module(3)]
+    public static UIModule UI { get => TGameFramework.Instance.GetModule<UIModule>(); }
+
+    [Module(4)]
     public static MessageModule Message { get => TGameFramework.Instance.GetModule<MessageModule>(); }//获取特定类型的模块实例
 
 
-    [Module(3)]
+    [Module(5)]
+    public static ECSModule ECS { get => TGameFramework.Instance.GetModule<ECSModule>(); }
+
+
+    [Module(6)]
     public static NetModule Net { get => TGameFramework.Instance.GetModule<NetModule>(); }//获取特定类型的模块实例
 
     public Button sendbut;
@@ -32,10 +42,9 @@ public class GameManager : MonoBehaviour
         StartupModules();
         TGameFramework.Instance.InitModules();
 
-        sendbut.onClick.AddListener(()=> {
-            GameManager.Message.Post<MessageType.Game>(new MessageType.Game() { }).Coroutine();
-        });
+        ConfigManager.LoadAllConfigsByAddressable("Assets/BundleAssets/Config");
     }
+    
     public void StartupModules()//查找和初始化所有从BaseGameModule派生的组件
     {
         List<ModuleAttribute> moduleAttrs = new List<ModuleAttribute>();//存储找到的模块属性
@@ -76,6 +85,10 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        sendbut.onClick.AddListener(() => {
+            GameManager.Message.Post<MessageType.Game>(new MessageType.Game() { }).Coroutine();
+            GameManager.UI.OpenUI(UIViewID.TestPanel);
+        });
         TGameFramework.Instance.StartModules();
        
     }

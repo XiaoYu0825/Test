@@ -1,0 +1,84 @@
+[
+  {
+    "ID": 1,
+    "Description": "白",
+    "RandomPropertyInterval": [
+      0,
+      1
+    ],
+    "QualityWeight": 700,
+    "GemPlace": [],
+    "Decomposition": 1,
+    "QualityEffect": 0,
+    "Appraisal": false,
+    "AdditionPercentage": 0.0
+  },
+  {
+    "ID": 2,
+    "Description": "绿",
+    "RandomPropertyInterval": [
+      1,
+      2
+    ],
+    "QualityWeight": 400,
+    "GemPlace": [
+      1,
+      1
+    ],
+    "Decomposition": 3,
+    "QualityEffect": 90001001,
+    "Appraisal": false,
+    "AdditionPercentage": 0.1
+  },
+  {
+    "ID": 3,
+    "Description": "蓝",
+    "RandomPropertyInterval": [
+      2,
+      3
+    ],
+    "QualityWeight": 200,
+    "GemPlace": [
+      1,
+      2
+    ],
+    "Decomposition": 5,
+    "QualityEffect": 90001002,
+    "Appraisal": false,
+    "AdditionPercentage": 0.15
+  },
+  {
+    "ID": 4,
+    "Description": "紫",
+    "RandomPropertyInterval": [
+      3,
+      4
+    ],
+    "QualityWeight": 60,
+    "GemPlace": [
+      2,
+      4
+    ],
+    "Decomposition": 15,
+    "QualityEffect": 90001003,
+    "Appraisal": true,
+    "AdditionPercentage": 0.2
+  },
+  {
+    "ID": 5,
+    "Description": "橙",
+    "RandomPropertyInterval": [
+      5,
+      6
+    ],
+    "QualityWeight": 1,
+    "GemPlace": [
+      4,
+      6
+    ],
+    "Decomposition": 50,
+    "QualityEffect": 90001004,
+    "Appraisal": true,
+    "AdditionPercentage": 0.3
+  }
+]

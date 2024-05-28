@@ -1,0 +1,122 @@
+[
+  {
+    "ID": 1,
+    "Description": "",
+    "CharacterLv": 1,
+    "UpgradeExp": 400
+  },
+  {
+    "ID": 2,
+    "Description": "",
+    "CharacterLv": 2,
+    "UpgradeExp": 800
+  },
+  {
+    "ID": 3,
+    "Description": "",
+    "CharacterLv": 3,
+    "UpgradeExp": 1400
+  },
+  {
+    "ID": 4,
+    "Description": "",
+    "CharacterLv": 4,
+    "UpgradeExp": 2000
+  },
+  {
+    "ID": 5,
+    "Description": "",
+    "CharacterLv": 5,
+    "UpgradeExp": 2800
+  },
+  {
+    "ID": 6,
+    "Description": "",
+    "CharacterLv": 6,
+    "UpgradeExp": 3600
+  },
+  {
+    "ID": 7,
+    "Description": "",
+    "CharacterLv": 7,
+    "UpgradeExp": 4400
+  },
+  {
+    "ID": 8,
+    "Description": "",
+    "CharacterLv": 8,
+    "UpgradeExp": 5400
+  },
+  {
+    "ID": 9,
+    "Description": "",
+    "CharacterLv": 9,
+    "UpgradeExp": 6400
+  },
+  {
+    "ID": 10,
+    "Description": "",
+    "CharacterLv": 10,
+    "UpgradeExp": 7600
+  },
+  {
+    "ID": 11,
+    "Description": "",
+    "CharacterLv": 11,
+    "UpgradeExp": 8700
+  },
+  {
+    "ID": 12,
+    "Description": "",
+    "CharacterLv": 12,
+    "UpgradeExp": 9800
+  },
+  {
+    "ID": 13,
+    "Description": "",
+    "CharacterLv": 13,
+    "UpgradeExp": 11000
+  },
+  {
+    "ID": 14,
+    "Description": "",
+    "CharacterLv": 14,
+    "UpgradeExp": 12300
+  },
+  {
+    "ID": 15,
+    "Description": "",
+    "CharacterLv": 15,
+    "UpgradeExp": 13600
+  },
+  {
+    "ID": 16,
+    "Description": "",
+    "CharacterLv": 16,
+    "UpgradeExp": 15000
+  },
+  {
+    "ID": 17,
+    "Description": "",
+    "CharacterLv": 17,
+    "UpgradeExp": 16400
+  },
+  {
+    "ID": 18,
+    "Description": "",
+    "CharacterLv": 18,
+    "UpgradeExp": 17800
+  },
+  {
+    "ID": 19,
+    "Description": "",
+    "CharacterLv": 19,
+    "UpgradeExp": 19300
+  },
+  {
+    "ID": 20,
+    "Description": "",
+    "CharacterLv": 20,
+    "UpgradeExp": 20800
+  }
+]

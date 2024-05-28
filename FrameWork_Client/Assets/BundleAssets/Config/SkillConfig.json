@@ -1,0 +1,1928 @@
+[
+  {
+    "ID": 1,
+    "Description": "",
+    "Name": "解控霸体",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "",
+    "FX": "",
+    "SFX": "",
+    "SkillCombo": [],
+    "Duration": 0.0,
+    "CDGroup": 0,
+    "InputTarget": 0,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 0.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.0,
+        "DetectType": 3,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 2,
+        "Effects": [
+          "add_buff;1",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 10011001,
+    "Description": "",
+    "Name": "Grane-Attack",
+    "Icon": 10011001,
+    "GroupType": 1,
+    "GroupSkills": [
+      10011002,
+      10011003,
+      10011004
+    ],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "",
+    "FX": "",
+    "SFX": "",
+    "SkillCombo": [],
+    "Duration": 0.0,
+    "CDGroup": 0,
+    "InputTarget": 1,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 0.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 10011002,
+    "Description": "",
+    "Name": "",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Attack11",
+    "FX": "[10011001;0.22]",
+    "SFX": "[10011001;0.1]",
+    "SkillCombo": [
+      0.5
+    ],
+    "Duration": 1.5,
+    "CDGroup": 0,
+    "InputTarget": 1,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 0.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.3,
+        "DetectType": 6,
+        "DetectArgs": [
+          4.0,
+          150.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "stiff;0.5",
+          "damage;1;0;10011011;10011011",
+          "knock_back_forward;0.2;15",
+          ""
+        ]
+      },
+      {
+        "Time": 0.14,
+        "DetectType": 3,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 2,
+        "Effects": [
+          "shift;5;0.05",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 10011003,
+    "Description": "",
+    "Name": "",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Attack12",
+    "FX": "[10011002;0.25]",
+    "SFX": "[10011002;0.2]",
+    "SkillCombo": [
+      0.6
+    ],
+    "Duration": 1.5,
+    "CDGroup": 0,
+    "InputTarget": 1,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 0.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.3,
+        "DetectType": 6,
+        "DetectArgs": [
+          4.0,
+          150.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "stiff;0.5",
+          "damage;1;0;10011011;10011011",
+          "knock_back_forward;0.2;15",
+          ""
+        ]
+      },
+      {
+        "Time": 0.14,
+        "DetectType": 3,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 2,
+        "Effects": [
+          "shift;5;0.05",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 10011004,
+    "Description": "",
+    "Name": "",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Attack13",
+    "FX": "[10011003;0.25]",
+    "SFX": "[10011003;0.2]",
+    "SkillCombo": [
+      0.6,
+      0.8
+    ],
+    "Duration": 1.667,
+    "CDGroup": 0,
+    "InputTarget": 1,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 0.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.3,
+        "DetectType": 6,
+        "DetectArgs": [
+          5.0,
+          180.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "stiff;0.5",
+          "damage;1.5;0;10011011;10011011",
+          "knock_back_forward;0.2;15",
+          ""
+        ]
+      },
+      {
+        "Time": 0.14,
+        "DetectType": 3,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 2,
+        "Effects": [
+          "shift;5;0.05",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 10012001,
+    "Description": "",
+    "Name": "Grane-震碎斩",
+    "Icon": 10012001,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Skill1",
+    "FX": "[10012001;0.43]",
+    "SFX": "[10012001;0]",
+    "SkillCombo": [
+      1.2,
+      1.4
+    ],
+    "Duration": 1.5,
+    "CDGroup": 10012001,
+    "InputTarget": 1,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 0.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.51,
+        "DetectType": 5,
+        "DetectArgs": [
+          3.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 2.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "stun;3",
+          "damage;1.8;0;10012011;10012011",
+          "knock_back;0.2;10",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 10013001,
+    "Description": "",
+    "Name": "Grane-旋风斩",
+    "Icon": 10013001,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": true,
+    "MoveSpeed": 3.0,
+    "Animation": "Skill2",
+    "FX": "[10013001;0]",
+    "SFX": "[10013001;0]",
+    "SkillCombo": [],
+    "Duration": 2.9,
+    "CDGroup": 10013001,
+    "InputTarget": 0,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 0.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.0,
+        "DetectType": 3,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 2,
+        "Effects": [
+          "add_buff:revert;10013001",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 10014001,
+    "Description": "",
+    "Name": "Grane-跳斩",
+    "Icon": 10014001,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Skill3",
+    "FX": "[10014001;0.12]",
+    "SFX": "[10014001;0]",
+    "SkillCombo": [
+      1.2,
+      1.4
+    ],
+    "Duration": 1.5,
+    "CDGroup": 10014001,
+    "InputTarget": 2,
+    "InputTargetRelation": 1,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 0.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.6,
+        "DetectType": 5,
+        "DetectArgs": [
+          2.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 1.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "stiff;0.5",
+          "damage;1;0;10011011;10011011",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.167,
+        "DetectType": 3,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 2,
+        "Effects": [
+          "shift_to_target;0.4;-2",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 10015001,
+    "Description": "",
+    "Name": "Grane-上挑",
+    "Icon": 10015001,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Skill4",
+    "FX": "[10015001;0.4]",
+    "SFX": "[10015001;0]",
+    "SkillCombo": [
+      1.2,
+      1.4
+    ],
+    "Duration": 1.667,
+    "CDGroup": 10015001,
+    "InputTarget": 1,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 0.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.433,
+        "DetectType": 7,
+        "DetectArgs": [
+          3.0,
+          6.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "stiff;0.5",
+          "damage;1.8;0;10012011;10012011",
+          "knock_back_forward;0.4;10",
+          "time_freeze;1"
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 10016001,
+    "Description": "",
+    "Name": "Grane-后跳",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Dash",
+    "FX": "[10016001;0]",
+    "SFX": "",
+    "SkillCombo": [],
+    "Duration": 0.5,
+    "CDGroup": 0,
+    "InputTarget": 0,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 0.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.0,
+        "DetectType": 3,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 2,
+        "Effects": [
+          "shift;-11;0.3",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 20011001,
+    "Description": "",
+    "Name": "FrogLv1-attack",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Skill1",
+    "FX": "[20011001;1.165]",
+    "SFX": "[20011001;0.2]",
+    "SkillCombo": [],
+    "Duration": 2.333,
+    "CDGroup": 0,
+    "InputTarget": 0,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 3.0
+    },
+    "DetectHits": [
+      {
+        "Time": 1.2,
+        "DetectType": 6,
+        "DetectArgs": [
+          4.0,
+          120.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "damage;1;0;0;20011011",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 20021001,
+    "Description": "",
+    "Name": "BoarLv1-attack",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Skill1",
+    "FX": "[20021001;0.88][20021002;1.6]",
+    "SFX": "[20021001;0.48]",
+    "SkillCombo": [],
+    "Duration": 2.667,
+    "CDGroup": 0,
+    "InputTarget": 0,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 3.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.933,
+        "DetectType": 6,
+        "DetectArgs": [
+          4.0,
+          120.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "damage;1;0;0;20021011",
+          "stiff;0.4",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 1.6,
+        "DetectType": 6,
+        "DetectArgs": [
+          3.0,
+          120.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "damage;1;0;0;20021011",
+          "stiff;0.4",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 20031001,
+    "Description": "",
+    "Name": "FrogLv2-attack",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Skill1",
+    "FX": "[20031001;1.165]",
+    "SFX": "[20031001;0.2]",
+    "SkillCombo": [],
+    "Duration": 2.333,
+    "CDGroup": 0,
+    "InputTarget": 0,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 3.0
+    },
+    "DetectHits": [
+      {
+        "Time": 1.2,
+        "DetectType": 6,
+        "DetectArgs": [
+          4.0,
+          120.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "damage;1;0;0;20031011",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 20041001,
+    "Description": "",
+    "Name": "BoarLv2-attack",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Skill1",
+    "FX": "[20041001;0.88][20041002;1.6]",
+    "SFX": "[20041001;0.48]",
+    "SkillCombo": [],
+    "Duration": 2.667,
+    "CDGroup": 0,
+    "InputTarget": 0,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 3.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.933,
+        "DetectType": 6,
+        "DetectArgs": [
+          4.0,
+          120.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "damage;1;0;0;20041011",
+          "stiff;0.4",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 1.6,
+        "DetectType": 6,
+        "DetectArgs": [
+          3.0,
+          120.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "damage;1;0;0;20041011",
+          "stiff;0.4",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 20051001,
+    "Description": "",
+    "Name": "FrogLv3-attack",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Skill1",
+    "FX": "[20051001;1.165]",
+    "SFX": "[20051001;0.2]",
+    "SkillCombo": [],
+    "Duration": 2.333,
+    "CDGroup": 0,
+    "InputTarget": 0,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 3.0
+    },
+    "DetectHits": [
+      {
+        "Time": 1.2,
+        "DetectType": 6,
+        "DetectArgs": [
+          4.0,
+          120.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "damage;1;0;0;20051011",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 20061001,
+    "Description": "",
+    "Name": "BoarLv3-attack",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Skill1",
+    "FX": "[20061001;0.88][20061002;1.6]",
+    "SFX": "[20061001;0.48]",
+    "SkillCombo": [],
+    "Duration": 2.667,
+    "CDGroup": 0,
+    "InputTarget": 0,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 3.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.933,
+        "DetectType": 6,
+        "DetectArgs": [
+          4.0,
+          120.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "damage;1;0;0;20061011",
+          "stiff;0.4",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 1.6,
+        "DetectType": 6,
+        "DetectArgs": [
+          3.0,
+          120.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "damage;1;0;0;20061011",
+          "stiff;0.4",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 20071001,
+    "Description": "",
+    "Name": "SpearWolf",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Skill1",
+    "FX": "[20071001;0.6][20071002;1.05][20071003;1.6]",
+    "SFX": "[20071001;0.3]",
+    "SkillCombo": [],
+    "Duration": 2.667,
+    "CDGroup": 0,
+    "InputTarget": 2,
+    "InputTargetRelation": 1,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 6.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.6,
+        "DetectType": 3,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 2,
+        "Effects": [
+          "shift_to_target;0.1;-1",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.667,
+        "DetectType": 7,
+        "DetectArgs": [
+          2.0,
+          5.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "damage;1;0",
+          "stiff;0.4",
+          "knock_back;0.3;3",
+          ""
+        ]
+      },
+      {
+        "Time": 1.167,
+        "DetectType": 7,
+        "DetectArgs": [
+          2.0,
+          4.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "damage;1;0",
+          "stiff;0.4",
+          "knock_back;0.3;3",
+          ""
+        ]
+      },
+      {
+        "Time": 1.667,
+        "DetectType": 6,
+        "DetectArgs": [
+          4.0,
+          120.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "damage;1;0",
+          "stiff;0.4",
+          "knock_back;0.3;8",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 20081001,
+    "Description": "",
+    "Name": "蘑菇蛇-潜行",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "SubmergeIn",
+    "FX": "",
+    "SFX": "",
+    "SkillCombo": [],
+    "Duration": 0.5,
+    "CDGroup": 20081101,
+    "InputTarget": 0,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [
+      2
+    ],
+    "CastLimit": {
+      "Distance": 0.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.48,
+        "DetectType": 3,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 2,
+        "Effects": [
+          "add_buff;20081101",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 20082001,
+    "Description": "",
+    "Name": "蘑菇蛇-冲击",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "SubmergeOut",
+    "FX": "[20082001;0]",
+    "SFX": "[20082001;0]",
+    "SkillCombo": [],
+    "Duration": 0.833,
+    "CDGroup": 0,
+    "InputTarget": 2,
+    "InputTargetRelation": 1,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 0.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.0,
+        "DetectType": 3,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 2,
+        "Effects": [
+          "remove_buff_by_config_id;20081101",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.25,
+        "DetectType": 7,
+        "DetectArgs": [
+          2.0,
+          4.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "damage;1;0",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 20091001,
+    "Description": "",
+    "Name": "蘑菇巨蛇-攻击",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Skill1",
+    "FX": "[20091001;0.5]",
+    "SFX": "[20091001;0.6]",
+    "SkillCombo": [],
+    "Duration": 1.167,
+    "CDGroup": 0,
+    "InputTarget": 0,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 0.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.692,
+        "DetectType": 3,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 2,
+        "Effects": [
+          "shift;35;0.25",
+          "fire_bullet;20091101",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 40011001,
+    "Description": "",
+    "Name": "Cromurai-attack",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Attack",
+    "FX": "[40011001;0.536][40011002;1.19]",
+    "SFX": "",
+    "SkillCombo": [],
+    "Duration": 2.333,
+    "CDGroup": 0,
+    "InputTarget": 0,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 3.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.583,
+        "DetectType": 6,
+        "DetectArgs": [
+          4.0,
+          120.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "damage;1;0",
+          "stiff;0.4",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 1.237,
+        "DetectType": 6,
+        "DetectArgs": [
+          3.0,
+          120.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "damage;1;0",
+          "stiff;0.4",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 40012001,
+    "Description": "",
+    "Name": "Cromurai-skill1",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Skill1",
+    "FX": "[40012001;0]",
+    "SFX": "",
+    "SkillCombo": [],
+    "Duration": 3.167,
+    "CDGroup": 0,
+    "InputTarget": 0,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 5.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.76,
+        "DetectType": 3,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 2,
+        "Effects": [
+          "shift;30;0.29",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 1.2,
+        "DetectType": 6,
+        "DetectArgs": [
+          3.0,
+          120.0
+        ],
+        "DetectCenterType": 1,
+        "CenterOffset": 0.0,
+        "TargetRelation": 1,
+        "Effects": [
+          "damage;1;0",
+          "stiff;0.4",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 40013001,
+    "Description": "",
+    "Name": "Cromurai-skill2",
+    "Icon": 0,
+    "GroupType": 0,
+    "GroupSkills": [],
+    "MoveCast": false,
+    "MoveSpeed": 0.0,
+    "Animation": "Skill2",
+    "FX": "[40013001;0.82]",
+    "SFX": "",
+    "SkillCombo": [],
+    "Duration": 2.0,
+    "CDGroup": 0,
+    "InputTarget": 3,
+    "InputTargetRelation": 0,
+    "SelfBuffs": [],
+    "CastLimit": {
+      "Distance": 3.0
+    },
+    "DetectHits": [
+      {
+        "Time": 0.84,
+        "DetectType": 2,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "fire_bullet;40013001",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "Time": 0.0,
+        "DetectType": 0,
+        "DetectArgs": [],
+        "DetectCenterType": 0,
+        "CenterOffset": 0.0,
+        "TargetRelation": 0,
+        "Effects": [
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  }
+]

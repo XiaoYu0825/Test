@@ -1,0 +1,8 @@
+[
+  {
+    "ID": 1,
+    "Description": "TestPanel",
+    "Asset": "Assets/Game/UIs/Views/Test/TestPanel.prefab",
+    "Mode": 0
+  }
+]

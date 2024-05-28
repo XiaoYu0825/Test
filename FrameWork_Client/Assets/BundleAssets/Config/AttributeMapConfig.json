@@ -1,0 +1,848 @@
+[
+  {
+    "ID": 101,
+    "Description": "力量",
+    "AttributeType": 0,
+    "AttributeDescribe": "力量，主属性影响角色伤害加成，影响角色护甲",
+    "EnglishMark": "Strength",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 201,
+    "Description": "智力",
+    "AttributeType": 0,
+    "AttributeDescribe": "智力，主属性影响角色伤害加成，影响角色抗性",
+    "EnglishMark": "Intelligence",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 301,
+    "Description": "敏捷",
+    "AttributeType": 0,
+    "AttributeDescribe": "敏捷，主属性影响角色伤害加成，影响角色护甲和闪避",
+    "EnglishMark": "Dexterity",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 401,
+    "Description": "体质",
+    "AttributeType": 0,
+    "AttributeDescribe": "耐力，影响角色Life",
+    "EnglishMark": "Vitality",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 501,
+    "Description": "全属性",
+    "AttributeType": 0,
+    "AttributeDescribe": "力量，智力，敏捷，体质",
+    "EnglishMark": "All Attributes",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 601,
+    "Description": "生命值",
+    "AttributeType": 1,
+    "AttributeDescribe": "生命值低于0，战斗单位会立刻死亡",
+    "EnglishMark": "Life",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 602,
+    "Description": "当前生命值",
+    "AttributeType": 1,
+    "AttributeDescribe": "",
+    "EnglishMark": "Current Life",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 603,
+    "Description": "生命百分比",
+    "AttributeType": 1,
+    "AttributeDescribe": "",
+    "EnglishMark": "Life Percent",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 604,
+    "Description": "最大生命值",
+    "AttributeType": 1,
+    "AttributeDescribe": "",
+    "EnglishMark": "Max Life",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 701,
+    "Description": "法力值",
+    "AttributeType": 1,
+    "AttributeDescribe": "法力值低于技能消耗阈值，无法施放技能",
+    "EnglishMark": "Magic",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 702,
+    "Description": "当前法力值",
+    "AttributeType": 1,
+    "AttributeDescribe": "",
+    "EnglishMark": "Current Magic",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 703,
+    "Description": "法力百分比",
+    "AttributeType": 1,
+    "AttributeDescribe": "",
+    "EnglishMark": "Magic Percent",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 801,
+    "Description": "能量",
+    "AttributeType": 1,
+    "AttributeDescribe": "能量值低于技能消耗阈值，无法施放技能",
+    "EnglishMark": "Energy",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 802,
+    "Description": "当前能量值",
+    "AttributeType": 1,
+    "AttributeDescribe": "",
+    "EnglishMark": "Current Energy",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 803,
+    "Description": "能量百分比",
+    "AttributeType": 1,
+    "AttributeDescribe": "",
+    "EnglishMark": "Energy Percent",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 901,
+    "Description": "怒气",
+    "AttributeType": 1,
+    "AttributeDescribe": "怒气值低于技能消耗阈值，无法施放技能",
+    "EnglishMark": "Fury",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 902,
+    "Description": "当前怒气值",
+    "AttributeType": 1,
+    "AttributeDescribe": "",
+    "EnglishMark": "Current Fury",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 903,
+    "Description": "怒气百分比",
+    "AttributeType": 1,
+    "AttributeDescribe": "",
+    "EnglishMark": "Fury Percent",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1001,
+    "Description": "武器伤害",
+    "AttributeType": 1,
+    "AttributeDescribe": "直接计算伤害",
+    "EnglishMark": "Weapon Damage",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1002,
+    "Description": "武器伤害加成",
+    "AttributeType": 1,
+    "AttributeDescribe": "按百分比增加物理攻击伤害",
+    "EnglishMark": "Weapon Damage Percent",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1003,
+    "Description": "武器最小伤害",
+    "AttributeType": 1,
+    "AttributeDescribe": "用于攻击的战斗单位计算伤害",
+    "EnglishMark": "Weapon Min Damage",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1004,
+    "Description": "武器最大伤害",
+    "AttributeType": 1,
+    "AttributeDescribe": "用于攻击的战斗单位计算伤害",
+    "EnglishMark": "Weapon Max Damage",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1101,
+    "Description": "冰霜伤害",
+    "AttributeType": 1,
+    "AttributeDescribe": "直接计算伤害",
+    "EnglishMark": "Cold Damage",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1102,
+    "Description": "冰霜伤害加成",
+    "AttributeType": 1,
+    "AttributeDescribe": "按百分比增加冰霜攻击伤害",
+    "EnglishMark": "Cold Damage Percent",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1103,
+    "Description": "最小冰霜伤害",
+    "AttributeType": 1,
+    "AttributeDescribe": "用于攻击的战斗单位计算伤害",
+    "EnglishMark": "Min Cold Damage",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1104,
+    "Description": "最大冰霜伤害",
+    "AttributeType": 1,
+    "AttributeDescribe": "用于攻击的战斗单位计算伤害",
+    "EnglishMark": "Max Cold Damage",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1201,
+    "Description": "火焰伤害",
+    "AttributeType": 1,
+    "AttributeDescribe": "直接计算伤害",
+    "EnglishMark": "Fire Damage",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1202,
+    "Description": "火焰伤害加成",
+    "AttributeType": 1,
+    "AttributeDescribe": "按百分比增加火焰攻击伤害",
+    "EnglishMark": "Fire Damage Percent",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1203,
+    "Description": "最小火焰伤害",
+    "AttributeType": 1,
+    "AttributeDescribe": "用于攻击的战斗单位计算伤害",
+    "EnglishMark": "Min Fire Damage",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1204,
+    "Description": "最大火焰伤害",
+    "AttributeType": 1,
+    "AttributeDescribe": "用于攻击的战斗单位计算伤害",
+    "EnglishMark": "Max Fire Damage",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1301,
+    "Description": "闪电伤害",
+    "AttributeType": 1,
+    "AttributeDescribe": "直接计算伤害",
+    "EnglishMark": "Lightning Damage",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1302,
+    "Description": "闪电伤害加成",
+    "AttributeType": 1,
+    "AttributeDescribe": "按百分比增加闪电攻击伤害",
+    "EnglishMark": "Lightning Damage Percent",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1303,
+    "Description": "最小闪电伤害",
+    "AttributeType": 1,
+    "AttributeDescribe": "用于攻击的战斗单位计算伤害",
+    "EnglishMark": "Min Lightning Damage",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1304,
+    "Description": "最大闪电伤害",
+    "AttributeType": 1,
+    "AttributeDescribe": "用于攻击的战斗单位计算伤害",
+    "EnglishMark": "Max Lightning Damage",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1401,
+    "Description": "毒素伤害",
+    "AttributeType": 1,
+    "AttributeDescribe": "直接计算伤害",
+    "EnglishMark": "Poison Damage",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1402,
+    "Description": "毒素伤害加成",
+    "AttributeType": 1,
+    "AttributeDescribe": "按百分比增加毒素攻击伤害",
+    "EnglishMark": "Poison Damage Percent",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1403,
+    "Description": "最小毒素伤害",
+    "AttributeType": 1,
+    "AttributeDescribe": "用于攻击的战斗单位计算伤害",
+    "EnglishMark": "Min Poison Damage",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1404,
+    "Description": "最大毒素伤害",
+    "AttributeType": 1,
+    "AttributeDescribe": "用于攻击的战斗单位计算伤害",
+    "EnglishMark": "Max Poison Damage",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1501,
+    "Description": "护甲",
+    "AttributeType": 1,
+    "AttributeDescribe": "战斗单位计算所有伤害的减免",
+    "EnglishMark": "Armor",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1502,
+    "Description": "护甲百分比",
+    "AttributeType": 1,
+    "AttributeDescribe": "",
+    "EnglishMark": "Armor Percent",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1601,
+    "Description": "冰霜抗性",
+    "AttributeType": 1,
+    "AttributeDescribe": "冰霜伤害计算伤害减免和减速概率",
+    "EnglishMark": "Cold Resistance",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1701,
+    "Description": "火焰抗性",
+    "AttributeType": 1,
+    "AttributeDescribe": "火焰伤害计算伤害减免和灼烧概率",
+    "EnglishMark": "Fire Resistance",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1801,
+    "Description": "闪电抗性",
+    "AttributeType": 1,
+    "AttributeDescribe": "闪电伤害计算伤害减免和感电概率",
+    "EnglishMark": "Lightning Resistance",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 1901,
+    "Description": "毒素抗性",
+    "AttributeType": 1,
+    "AttributeDescribe": "毒性伤害计算伤害减免和中毒概率",
+    "EnglishMark": "Poison Resistance",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 2001,
+    "Description": "物理抗性",
+    "AttributeType": 1,
+    "AttributeDescribe": "无形伤害计算伤害减免",
+    "EnglishMark": "Physical Resistance",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 2101,
+    "Description": "全抗性",
+    "AttributeType": 1,
+    "AttributeDescribe": "冰霜，火焰，闪电，毒素，物理",
+    "EnglishMark": "All Resistance",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 2201,
+    "Description": "攻击力",
+    "AttributeType": 3,
+    "AttributeDescribe": "面板显示",
+    "EnglishMark": "Attack",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 2301,
+    "Description": "韧性",
+    "AttributeType": 3,
+    "AttributeDescribe": "面板显示",
+    "EnglishMark": "Toughness",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 2401,
+    "Description": "恢复",
+    "AttributeType": 3,
+    "AttributeDescribe": "面板显示",
+    "EnglishMark": "Resilience",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 2501,
+    "Description": "",
+    "AttributeType": 0,
+    "AttributeDescribe": "",
+    "EnglishMark": "",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 2601,
+    "Description": "",
+    "AttributeType": 0,
+    "AttributeDescribe": "",
+    "EnglishMark": "",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 2701,
+    "Description": "",
+    "AttributeType": 0,
+    "AttributeDescribe": "",
+    "EnglishMark": "",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 2801,
+    "Description": "精准",
+    "AttributeType": 1,
+    "AttributeDescribe": "无视防御单位部分闪避率",
+    "EnglishMark": "Precision",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 2901,
+    "Description": "闪避率",
+    "AttributeType": 1,
+    "AttributeDescribe": "躲开攻击的几率，战斗单位闪避后，不会受到任何伤害",
+    "EnglishMark": "Evasion",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.75
+  },
+  {
+    "ID": 3001,
+    "Description": "暴击几率",
+    "AttributeType": 2,
+    "AttributeDescribe": "影响自身基础暴击率",
+    "EnglishMark": "Critical Hit",
+    "LowerLimit": 0.05,
+    "UpperLimit": 0.5
+  },
+  {
+    "ID": 3101,
+    "Description": "暴击伤害",
+    "AttributeType": 2,
+    "AttributeDescribe": "造成暴击后的伤害加成",
+    "EnglishMark": "Critical Hit Damage",
+    "LowerLimit": 0.5,
+    "UpperLimit": 4.0
+  },
+  {
+    "ID": 3201,
+    "Description": "格挡率",
+    "AttributeType": 2,
+    "AttributeDescribe": "有几率格挡一次普通攻击",
+    "EnglishMark": "Block",
+    "LowerLimit": 0.05,
+    "UpperLimit": 0.7
+  },
+  {
+    "ID": 3301,
+    "Description": "远程伤害加成",
+    "AttributeType": 2,
+    "AttributeDescribe": "",
+    "EnglishMark": "Ranged Damage Bonus",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 3302,
+    "Description": "远程伤害减免",
+    "AttributeType": 2,
+    "AttributeDescribe": "受到远程伤害减免",
+    "EnglishMark": "Ranged Damage Reduction",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 3303,
+    "Description": "远程伤害反弹",
+    "AttributeType": 2,
+    "AttributeDescribe": "反弹受到的远程伤害",
+    "EnglishMark": "Ranged Damage Rebound",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 3401,
+    "Description": "近战伤害加成",
+    "AttributeType": 2,
+    "AttributeDescribe": "",
+    "EnglishMark": "Melee Damage Bonus",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 3402,
+    "Description": "近战伤害减免",
+    "AttributeType": 2,
+    "AttributeDescribe": "受到近战伤害减免",
+    "EnglishMark": "Melee Damage Reduction",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 3403,
+    "Description": "近战伤害反弹",
+    "AttributeType": 2,
+    "AttributeDescribe": "反弹受到的远程伤害",
+    "EnglishMark": "Melee Damage Rebound",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 3501,
+    "Description": "攻击距离",
+    "AttributeType": 2,
+    "AttributeDescribe": "提升武器基础攻击距离",
+    "EnglishMark": "Attack Distance",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 3601,
+    "Description": "移动速度",
+    "AttributeType": 2,
+    "AttributeDescribe": "增加单位移动的速度，百分比加成",
+    "EnglishMark": "Movement Speed",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 3701,
+    "Description": "穿透",
+    "AttributeType": 2,
+    "AttributeDescribe": "无视防御单位部分伤害减免",
+    "EnglishMark": "Penetration",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 3801,
+    "Description": "技能等级",
+    "AttributeType": 2,
+    "AttributeDescribe": "提高技能造成的伤害",
+    "EnglishMark": "Skill Level",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 3901,
+    "Description": "精英伤害加成",
+    "AttributeType": 2,
+    "AttributeDescribe": "对精英怪伤害增加",
+    "EnglishMark": "Elite damage bonus",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 4001,
+    "Description": "精英伤害减免",
+    "AttributeType": 2,
+    "AttributeDescribe": "受到精英怪伤害减免",
+    "EnglishMark": "Elite Damage Reduction",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 4101,
+    "Description": "技能冷却时间",
+    "AttributeType": 2,
+    "AttributeDescribe": "技能冷却时间%",
+    "EnglishMark": "Skill CD",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 4201,
+    "Description": "",
+    "AttributeType": 0,
+    "AttributeDescribe": "",
+    "EnglishMark": "",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 4301,
+    "Description": "",
+    "AttributeType": 0,
+    "AttributeDescribe": "",
+    "EnglishMark": "",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 4401,
+    "Description": "生命偷取",
+    "AttributeType": 3,
+    "AttributeDescribe": "根据伤害返回生命",
+    "EnglishMark": "Damage Dealt to Life",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 4501,
+    "Description": "每秒回复生命",
+    "AttributeType": 3,
+    "AttributeDescribe": "",
+    "EnglishMark": "Life per Second",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 4601,
+    "Description": "击中回复生命",
+    "AttributeType": 3,
+    "AttributeDescribe": "每击中一个敌人回复生命",
+    "EnglishMark": "Life per Hit",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 4701,
+    "Description": "击杀回复生命",
+    "AttributeType": 3,
+    "AttributeDescribe": "每击杀一个敌人回复生命",
+    "EnglishMark": "Life per Kill",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 4801,
+    "Description": "每秒回复法力",
+    "AttributeType": 3,
+    "AttributeDescribe": "",
+    "EnglishMark": "Magic per Second",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 4901,
+    "Description": "击中回复法力",
+    "AttributeType": 3,
+    "AttributeDescribe": "每击中一个敌人回复法力",
+    "EnglishMark": "Magic per Hit",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 5001,
+    "Description": "击杀回复法力",
+    "AttributeType": 3,
+    "AttributeDescribe": "每击杀一个敌人回复法力",
+    "EnglishMark": "Magic per Kill",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 5101,
+    "Description": "法力消耗降低",
+    "AttributeType": 3,
+    "AttributeDescribe": "按施放技能成功后百分比减少消耗",
+    "EnglishMark": "Reduced Magic Consumption",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 5201,
+    "Description": "每秒回复能量",
+    "AttributeType": 3,
+    "AttributeDescribe": "",
+    "EnglishMark": "Energy per Second",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 5301,
+    "Description": "击中回复能量",
+    "AttributeType": 3,
+    "AttributeDescribe": "每击中一个敌人回复能量",
+    "EnglishMark": "Energy per Hit",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 5401,
+    "Description": "击杀回复能量",
+    "AttributeType": 3,
+    "AttributeDescribe": "每击杀一个敌人回复能量",
+    "EnglishMark": "Energy per Kill",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 5501,
+    "Description": "能量消耗降低",
+    "AttributeType": 3,
+    "AttributeDescribe": "按施放技能成功后百分比减少消耗",
+    "EnglishMark": "Reduced Energy Consumption",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 5601,
+    "Description": "每秒回复怒气",
+    "AttributeType": 3,
+    "AttributeDescribe": "",
+    "EnglishMark": "Fury per Second",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 5701,
+    "Description": "击中回复怒气",
+    "AttributeType": 3,
+    "AttributeDescribe": "每击中一个敌人回复怒气",
+    "EnglishMark": "Fury per Hit",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 5801,
+    "Description": "击杀回复怒气",
+    "AttributeType": 3,
+    "AttributeDescribe": "每击杀一个敌人回复怒气",
+    "EnglishMark": "Fury per Kill",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 5901,
+    "Description": "怒气消耗降低",
+    "AttributeType": 3,
+    "AttributeDescribe": "按施放技能成功后百分比减少消耗",
+    "EnglishMark": "Reduced Fury Consumption",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 6001,
+    "Description": "经验获取加成",
+    "AttributeType": 3,
+    "AttributeDescribe": "击杀获得经验加成",
+    "EnglishMark": "Experience per Kill",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 6002,
+    "Description": "当前经验",
+    "AttributeType": 3,
+    "AttributeDescribe": "",
+    "EnglishMark": "Current Experience",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 6101,
+    "Description": "金币获取加成",
+    "AttributeType": 3,
+    "AttributeDescribe": "金币拾取时获得加成",
+    "EnglishMark": "GoldAbso",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 6201,
+    "Description": "找到魔法物品",
+    "AttributeType": 3,
+    "AttributeDescribe": "魔法物品掉落概率加成",
+    "EnglishMark": "Magica item Find",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 6301,
+    "Description": "控制减免效果",
+    "AttributeType": 3,
+    "AttributeDescribe": "受到控制系BUFF时缩短被控制时间",
+    "EnglishMark": "Control Impairing Effects",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  },
+  {
+    "ID": 6401,
+    "Description": "等级",
+    "AttributeType": 3,
+    "AttributeDescribe": "",
+    "EnglishMark": "Level",
+    "LowerLimit": 0.0,
+    "UpperLimit": 0.0
+  }
+]

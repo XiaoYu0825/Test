@@ -1,0 +1,30 @@
+[
+  {
+    "ID": 10012001,
+    "Description": "Grane-碎裂斩",
+    "CD": 5.0,
+    "CanCharge": false,
+    "MaxChargeCount": 0
+  },
+  {
+    "ID": 10013001,
+    "Description": "Grane-旋风斩",
+    "CD": 8.0,
+    "CanCharge": false,
+    "MaxChargeCount": 0
+  },
+  {
+    "ID": 10014001,
+    "Description": "Grane-跳斩",
+    "CD": 2.0,
+    "CanCharge": false,
+    "MaxChargeCount": 0
+  },
+  {
+    "ID": 10015001,
+    "Description": "Grane-上挑",
+    "CD": 2.0,
+    "CanCharge": false,
+    "MaxChargeCount": 0
+  }
+]

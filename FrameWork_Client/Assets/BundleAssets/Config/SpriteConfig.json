@@ -1,0 +1,587 @@
+[
+  {
+    "ID": 1,
+    "Description": "",
+    "Asset": "Datas/Portrait/Rabbit.png"
+  },
+  {
+    "ID": 2,
+    "Description": "",
+    "Asset": "Datas/Portrait/Casey.png"
+  },
+  {
+    "ID": 10011001,
+    "Description": "凯茜-普攻",
+    "Asset": "Datas/UI/SkillIcon/凯茜-默认攻击.png"
+  },
+  {
+    "ID": 10012001,
+    "Description": "凯茜-技能",
+    "Asset": "Datas/UI/SkillIcon/凯茜-默认技能.png"
+  },
+  {
+    "ID": 10013001,
+    "Description": "凯茜-冲刺",
+    "Asset": "Datas/UI/SkillIcon/凯茜-默认闪避.png"
+  },
+  {
+    "ID": 10014001,
+    "Description": "凯茜-兽化-普攻",
+    "Asset": "Datas/UI/SkillIcon/凯茜-默认攻击.png"
+  },
+  {
+    "ID": 10015001,
+    "Description": "凯茜-兽化-技能",
+    "Asset": "Datas/UI/SkillIcon/凯茜-默认技能.png"
+  },
+  {
+    "ID": 10016001,
+    "Description": "凯茜-兽化-冲刺",
+    "Asset": "Datas/UI/SkillIcon/凯茜-默认闪避.png"
+  },
+  {
+    "ID": 10011101,
+    "Description": "凯茜-普攻-雷系",
+    "Asset": "Datas/UI/SkillIcon/凯茜-雷系攻击.png"
+  },
+  {
+    "ID": 10012101,
+    "Description": "凯茜-技能-雷系",
+    "Asset": "Datas/UI/SkillIcon/凯茜-雷系技能.png"
+  },
+  {
+    "ID": 10013101,
+    "Description": "凯茜-冲刺-雷系",
+    "Asset": "Datas/UI/SkillIcon/凯茜-雷系闪避.png"
+  },
+  {
+    "ID": 10011201,
+    "Description": "凯茜-普攻-风系",
+    "Asset": "Datas/UI/SkillIcon/凯茜-风系攻击.png"
+  },
+  {
+    "ID": 10012201,
+    "Description": "凯茜-技能-风系",
+    "Asset": "Datas/UI/SkillIcon/凯茜-风系技能.png"
+  },
+  {
+    "ID": 10013201,
+    "Description": "凯茜-冲刺-风系",
+    "Asset": "Datas/UI/SkillIcon/凯茜-风系闪避.png"
+  },
+  {
+    "ID": 10011301,
+    "Description": "凯茜-普攻-炎系",
+    "Asset": "Datas/UI/SkillIcon/凯茜-炎系攻击.png"
+  },
+  {
+    "ID": 10012301,
+    "Description": "凯茜-技能-炎系",
+    "Asset": "Datas/UI/SkillIcon/凯茜-炎系技能.png"
+  },
+  {
+    "ID": 10013301,
+    "Description": "凯茜-冲刺-炎系",
+    "Asset": "Datas/UI/SkillIcon/凯茜-炎系闪避.png"
+  },
+  {
+    "ID": 10021001,
+    "Description": "格雷恩-攻击",
+    "Asset": "Datas/UI/SkillIcon/格雷恩-默认攻击.png"
+  },
+  {
+    "ID": 10022001,
+    "Description": "格雷恩-技能",
+    "Asset": "Datas/UI/SkillIcon/格雷恩-默认技能.png"
+  },
+  {
+    "ID": 10023001,
+    "Description": "格雷恩-冲刺",
+    "Asset": "Datas/UI/SkillIcon/格雷恩-默认闪避.png"
+  },
+  {
+    "ID": 10024001,
+    "Description": "格雷恩-兽化-普攻",
+    "Asset": "Datas/UI/SkillIcon/格雷恩-默认攻击.png"
+  },
+  {
+    "ID": 10025001,
+    "Description": "格雷恩-兽化-技能",
+    "Asset": "Datas/UI/SkillIcon/格雷恩-默认技能.png"
+  },
+  {
+    "ID": 10026001,
+    "Description": "格雷恩-兽化-冲刺",
+    "Asset": "Datas/UI/SkillIcon/格雷恩-默认闪避.png"
+  },
+  {
+    "ID": 10021101,
+    "Description": "格雷恩-攻击-雷",
+    "Asset": "Datas/UI/SkillIcon/格雷恩-雷系攻击.png"
+  },
+  {
+    "ID": 10022101,
+    "Description": "格雷恩-技能-雷",
+    "Asset": "Datas/UI/SkillIcon/格雷恩-雷系技能.png"
+  },
+  {
+    "ID": 10023101,
+    "Description": "格雷恩-冲刺-雷",
+    "Asset": "Datas/UI/SkillIcon/格雷恩-雷系闪避.png"
+  },
+  {
+    "ID": 10021201,
+    "Description": "格雷恩-攻击-风",
+    "Asset": "Datas/UI/SkillIcon/格雷恩-风系攻击.png"
+  },
+  {
+    "ID": 10022201,
+    "Description": "格雷恩-技能-风",
+    "Asset": "Datas/UI/SkillIcon/格雷恩-风系技能.png"
+  },
+  {
+    "ID": 10023201,
+    "Description": "格雷恩-冲刺-风",
+    "Asset": "Datas/UI/SkillIcon/格雷恩-风系闪避.png"
+  },
+  {
+    "ID": 10021301,
+    "Description": "格雷恩-攻击-炎",
+    "Asset": "Datas/UI/SkillIcon/格雷恩-炎系攻击.png"
+  },
+  {
+    "ID": 10022301,
+    "Description": "格雷恩-技能-炎",
+    "Asset": "Datas/UI/SkillIcon/格雷恩-炎系技能.png"
+  },
+  {
+    "ID": 10023301,
+    "Description": "格雷恩-冲刺-炎",
+    "Asset": "Datas/UI/SkillIcon/格雷恩-炎系闪避.png"
+  },
+  {
+    "ID": 20010001,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/crit.png"
+  },
+  {
+    "ID": 20010002,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/backstab_damage.png"
+  },
+  {
+    "ID": 20010003,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/kill_life_steal.png"
+  },
+  {
+    "ID": 20010004,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/charge_count.png"
+  },
+  {
+    "ID": 20010005,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/extra_bullet.png"
+  },
+  {
+    "ID": 20010006,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/bullet_spring.png"
+  },
+  {
+    "ID": 51011000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/雷系-一阶-凯茜-雷鸣攻击.png"
+  },
+  {
+    "ID": 51012000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/雷系-一阶-凯茜-雷鸣技能.png"
+  },
+  {
+    "ID": 51013000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/雷系-一阶-凯茜-雷鸣闪避.png"
+  },
+  {
+    "ID": 51021000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/雷系-二阶-雷鸣突袭.png"
+  },
+  {
+    "ID": 51022000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/雷系-二阶-电光火石.png"
+  },
+  {
+    "ID": 51023000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/雷系-二阶-雷鸣暴击.png"
+  },
+  {
+    "ID": 51024000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/雷系-二阶-天雷反击.png"
+  },
+  {
+    "ID": 51025000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/雷系-二阶-天雷滚滚.png"
+  },
+  {
+    "ID": 51031000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/雷系-三阶-多重感电.png"
+  },
+  {
+    "ID": 51032000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/雷系-三阶-球形闪电.png"
+  },
+  {
+    "ID": 51033000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/雷系-三阶-充能闪电.png"
+  },
+  {
+    "ID": 51034000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/雷系-三阶-雷神之怒.png"
+  },
+  {
+    "ID": 51041000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/雷系-四阶-电闪雷鸣.png"
+  },
+  {
+    "ID": 51042000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/雷系-四阶-雷霆万钧.png"
+  },
+  {
+    "ID": 52011000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/风系-一阶-凯茜-风啸攻击.png"
+  },
+  {
+    "ID": 52012000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/风系-一阶-凯茜-风啸技能.png"
+  },
+  {
+    "ID": 52013000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/风系-一阶-凯茜-风啸闪避.png"
+  },
+  {
+    "ID": 52021000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/风系-二阶-狂风骤雨.png"
+  },
+  {
+    "ID": 52022000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/风系-二阶-厉风如剑.png"
+  },
+  {
+    "ID": 52023000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/风系-二阶-风啸暴伤.png"
+  },
+  {
+    "ID": 52024000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/风系-二阶-强力击退.png"
+  },
+  {
+    "ID": 52031000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/风系-三阶-巨型台风.png"
+  },
+  {
+    "ID": 52032000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/风系-三阶-风暴之灵.png"
+  },
+  {
+    "ID": 52033000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/风系-三阶-利剑穿心.png"
+  },
+  {
+    "ID": 52041000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/风系-四阶-多重飓风.png"
+  },
+  {
+    "ID": 53011000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/炎系-一阶-凯茜-炎狱攻击.png"
+  },
+  {
+    "ID": 53012000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/炎系-一阶-凯茜-炎狱技能.png"
+  },
+  {
+    "ID": 53013000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/炎系-一阶-凯茜-炎狱闪避.png"
+  },
+  {
+    "ID": 53021000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/炎系-二阶-护甲融化.png"
+  },
+  {
+    "ID": 53022000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/炎系-二阶-熊熊烈火.png"
+  },
+  {
+    "ID": 53023000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/炎系-二阶-范围炎爆.png"
+  },
+  {
+    "ID": 53024000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/炎系-二阶-炎狱伤害.png"
+  },
+  {
+    "ID": 53025000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/炎系-二阶-炎龙反噬.png"
+  },
+  {
+    "ID": 53026000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/炎系-二阶-复仇.png"
+  },
+  {
+    "ID": 53031000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/炎系-三阶-多重炎爆.png"
+  },
+  {
+    "ID": 53032000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/炎系-三阶-超级炎爆.png"
+  },
+  {
+    "ID": 53033000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/炎系-三阶-不稳定物质.png"
+  },
+  {
+    "ID": 53034000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/炎系-三阶-不屈意志.png"
+  },
+  {
+    "ID": 53042000,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/炎系-四阶-连环爆炸.png"
+  },
+  {
+    "ID": 51011001,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/雷系-一阶-格雷恩-雷鸣攻击.png"
+  },
+  {
+    "ID": 51012001,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/雷系-一阶-格雷恩-雷鸣技能.png"
+  },
+  {
+    "ID": 51013001,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/雷系-一阶-格雷恩-雷鸣闪避.png"
+  },
+  {
+    "ID": 52011001,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/风系-一阶-格雷恩-风啸攻击.png"
+  },
+  {
+    "ID": 52012001,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/风系-一阶-格雷恩-风啸技能.png"
+  },
+  {
+    "ID": 52013001,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/风系-一阶-格雷恩-风啸闪避.png"
+  },
+  {
+    "ID": 53011001,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/炎系-一阶-格雷恩-炎狱攻击.png"
+  },
+  {
+    "ID": 53012001,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/炎系-一阶-格雷恩-炎狱技能.png"
+  },
+  {
+    "ID": 53013001,
+    "Description": "",
+    "Asset": "Datas/UI/Blessing/炎系-一阶-格雷恩-炎狱闪避.png"
+  },
+  {
+    "ID": 60011001,
+    "Description": "幻影匕首",
+    "Asset": "Datas/UI/Relic/幻影匕首.png"
+  },
+  {
+    "ID": 60011002,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/buff2.png"
+  },
+  {
+    "ID": 60011003,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/buff3.png"
+  },
+  {
+    "ID": 60011004,
+    "Description": "石鬼之面",
+    "Asset": "Datas/UI/Relic/石鬼之面.png"
+  },
+  {
+    "ID": 60011005,
+    "Description": "瓶装闪电",
+    "Asset": "Datas/UI/Relic/瓶装闪电.png"
+  },
+  {
+    "ID": 60011006,
+    "Description": "分裂箭",
+    "Asset": "Datas/UI/Relic/分裂箭.png"
+  },
+  {
+    "ID": 60011007,
+    "Description": "会员卡",
+    "Asset": "Datas/UI/Relic/会员卡.png"
+  },
+  {
+    "ID": 60011008,
+    "Description": "点金手",
+    "Asset": "Datas/UI/Relic/点金手.png"
+  },
+  {
+    "ID": 60011009,
+    "Description": "混乱之杖",
+    "Asset": "Datas/UI/Relic/混乱之杖.png"
+  },
+  {
+    "ID": 60011010,
+    "Description": "撒旦之触",
+    "Asset": "Datas/UI/Relic/撒旦之触.png"
+  },
+  {
+    "ID": 60011011,
+    "Description": "雷神之锤",
+    "Asset": "Datas/UI/Relic/雷神之锤.png"
+  },
+  {
+    "ID": 60011012,
+    "Description": "惩戒之剑",
+    "Asset": "Datas/UI/Relic/惩戒之剑.png"
+  },
+  {
+    "ID": 60011013,
+    "Description": "恐怖利刃",
+    "Asset": "Datas/UI/Relic/恐怖利刃.png"
+  },
+  {
+    "ID": 60011014,
+    "Description": "野兽獠牙",
+    "Asset": "Datas/UI/Relic/野兽獠牙.png"
+  },
+  {
+    "ID": 60011015,
+    "Description": "逆刃刀",
+    "Asset": "Datas/UI/Relic/逆刃刀.png"
+  },
+  {
+    "ID": 60011016,
+    "Description": "黄金之心",
+    "Asset": "Datas/UI/Relic/黄金之心.png"
+  },
+  {
+    "ID": 60012001,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/脆弱.png"
+  },
+  {
+    "ID": 60012002,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/流血.png"
+  },
+  {
+    "ID": 60012003,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/精神涣散.png"
+  },
+  {
+    "ID": 60012004,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/资质平平.png"
+  },
+  {
+    "ID": 60012005,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/虚弱.png"
+  },
+  {
+    "ID": 60012006,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/暴走.png"
+  },
+  {
+    "ID": 60012007,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/盗窃.png"
+  },
+  {
+    "ID": 60012008,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/狂暴.png"
+  },
+  {
+    "ID": 60012009,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/事不过三.png"
+  },
+  {
+    "ID": 60012010,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/迟钝.png"
+  },
+  {
+    "ID": 60012011,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/厄运.png"
+  },
+  {
+    "ID": 60012012,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/倒霉.png"
+  },
+  {
+    "ID": 60012013,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/奸商.png"
+  },
+  {
+    "ID": 60012014,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/生锈.png"
+  },
+  {
+    "ID": 60012015,
+    "Description": "",
+    "Asset": "Datas/UI/Relic/断剑.png"
+  }
+]

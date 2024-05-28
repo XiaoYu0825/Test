@@ -1,0 +1,147 @@
+[
+  {
+    "ID": 1,
+    "Description": "登录音乐",
+    "Asset": "event:/Music/Menu-01"
+  },
+  {
+    "ID": 10010001,
+    "Description": "Grane-run",
+    "Asset": "event:/Character/Grane/Grane-run"
+  },
+  {
+    "ID": 10011001,
+    "Description": "Grane-attack-1",
+    "Asset": "event:/Character/Grane/Grane-attack-1"
+  },
+  {
+    "ID": 10011011,
+    "Description": "Grane-underattack-attack",
+    "Asset": "event:/Character/Grane/Grane-underattack-attack"
+  },
+  {
+    "ID": 10011002,
+    "Description": "Grane-attack-2",
+    "Asset": "event:/Character/Grane/Grane-attack-2"
+  },
+  {
+    "ID": 10011012,
+    "Description": "Grane-underattack-attack",
+    "Asset": "event:/Character/Grane/Grane-underattack-attack"
+  },
+  {
+    "ID": 10011003,
+    "Description": "Grane-attack-3",
+    "Asset": "event:/Character/Grane/Grane-attack-3"
+  },
+  {
+    "ID": 10011013,
+    "Description": "Grane-underattack-attack",
+    "Asset": "event:/Character/Grane/Grane-underattack-attack"
+  },
+  {
+    "ID": 10012001,
+    "Description": "Grane-smash",
+    "Asset": "event:/Character/Grane/Grane-smash"
+  },
+  {
+    "ID": 10012011,
+    "Description": "Grane-underattack-attack",
+    "Asset": "event:/Character/Grane/Grane-underattack-attack"
+  },
+  {
+    "ID": 10013001,
+    "Description": "Grane-swirl",
+    "Asset": "event:/Character/Grane/Grane-swirl"
+  },
+  {
+    "ID": 10013011,
+    "Description": "Grane-underattack-attack",
+    "Asset": "event:/Character/Grane/Grane-underattack-attack"
+  },
+  {
+    "ID": 10014001,
+    "Description": "Grane-leap-attack",
+    "Asset": "event:/Character/Grane/Grane-leap-attack"
+  },
+  {
+    "ID": 10014011,
+    "Description": "Grane-underattack-attack",
+    "Asset": "event:/Character/Grane/Grane-underattack-attack"
+  },
+  {
+    "ID": 10015001,
+    "Description": "Grane-raise-attack",
+    "Asset": "event:/Character/Grane/Grane-raise-sword"
+  },
+  {
+    "ID": 10015011,
+    "Description": "Grane-underattack-attack",
+    "Asset": "event:/Character/Grane/Grane-underattack-attack"
+  },
+  {
+    "ID": 20011001,
+    "Description": "FrogLv1-attack",
+    "Asset": "event:/Monster/frog/frog-attack"
+  },
+  {
+    "ID": 20011011,
+    "Description": "FrogLv1-underattack-attack",
+    "Asset": "event:/Monster/frog/frog-underattack-attack"
+  },
+  {
+    "ID": 20021001,
+    "Description": "BoarLv1-attack",
+    "Asset": "event:/Monster/boar/boar-attack"
+  },
+  {
+    "ID": 20021011,
+    "Description": "BoarLv1-underattack-attack",
+    "Asset": "event:/Monster/boar/boar-underattack-attack"
+  },
+  {
+    "ID": 20031001,
+    "Description": "FrogLv2-attack",
+    "Asset": "event:/Monster/frog/frog-attack"
+  },
+  {
+    "ID": 20031011,
+    "Description": "FrogLv2-underattack-attack",
+    "Asset": "event:/Monster/frog/frog-underattack-attack"
+  },
+  {
+    "ID": 20041001,
+    "Description": "BoarLv2-attack",
+    "Asset": "event:/Monster/boar/boar-attack"
+  },
+  {
+    "ID": 20041011,
+    "Description": "BoarLv2-underattack-attack",
+    "Asset": "event:/Monster/boar/boar-underattack-attack"
+  },
+  {
+    "ID": 20051001,
+    "Description": "FrogLv3-attack",
+    "Asset": "event:/Monster/frog/frog-attack"
+  },
+  {
+    "ID": 20051011,
+    "Description": "FrogLv3-underattack-attack",
+    "Asset": "event:/Monster/frog/frog-underattack-attack"
+  },
+  {
+    "ID": 20061001,
+    "Description": "BoarLv3-attack",
+    "Asset": "event:/Monster/boar/boar-attack"
+  },
+  {
+    "ID": 20061011,
+    "Description": "BoarLv3-underattack-attack",
+    "Asset": "event:/Monster/boar/boar-underattack-attack"
+  },
+  {
+    "ID": 20071001,
+    "Description": "SpearWolf-attack",
+    "Asset": "event:/Monster/spear-wolf/spear-wolf-attack"
+  }
+]

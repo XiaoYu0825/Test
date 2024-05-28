@@ -1,0 +1,424 @@
+[
+  {
+    "ID": 40013001,
+    "Description": "Cromurai-skill2",
+    "Mode": 0,
+    "FireMode": 0,
+    "FireArgs": [],
+    "FixedPointRandomOffset": 0.0,
+    "FireCount": 1,
+    "FireInterval": 0.0,
+    "FireBone": 10,
+    "FX": [
+      40013002
+    ],
+    "HitFX": [
+      40013003
+    ],
+    "SFX": 0,
+    "HitSFX": 0,
+    "Speed": 15.0,
+    "AngularSpeed": 0.0,
+    "Gravity": 0.0,
+    "FixedPointDuration": 0.0,
+    "Duration": 3.0,
+    "CollideUnit": true,
+    "MaxHitUnitCount": 1,
+    "CollideUnitEffects": [
+      "damage;1;0",
+      "stiff;0.4",
+      ""
+    ],
+    "CollideTerrain": false,
+    "CollideTerrainEffects": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "ID": 20091101,
+    "Description": "蘑菇巨蛇-冲刺",
+    "Mode": 1,
+    "FireMode": 0,
+    "FireArgs": [],
+    "FixedPointRandomOffset": 0.0,
+    "FireCount": 1,
+    "FireInterval": 0.0,
+    "FireBone": 10,
+    "FX": [],
+    "HitFX": [],
+    "SFX": 0,
+    "HitSFX": 0,
+    "Speed": -1.0,
+    "AngularSpeed": -1.0,
+    "Gravity": 0.0,
+    "FixedPointDuration": 0.0,
+    "Duration": 0.25,
+    "CollideUnit": true,
+    "MaxHitUnitCount": -1,
+    "CollideUnitEffects": [
+      "damage;1;0",
+      "stiff;0.4",
+      ""
+    ],
+    "CollideTerrain": false,
+    "CollideTerrainEffects": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "ID": 20101101,
+    "Description": "蘑菇小绿-攻击",
+    "Mode": 0,
+    "FireMode": 0,
+    "FireArgs": [],
+    "FixedPointRandomOffset": 0.0,
+    "FireCount": 1,
+    "FireInterval": 0.0,
+    "FireBone": 10,
+    "FX": [
+      20101101
+    ],
+    "HitFX": [],
+    "SFX": 0,
+    "HitSFX": 0,
+    "Speed": 15.0,
+    "AngularSpeed": 2000.0,
+    "Gravity": 0.0,
+    "FixedPointDuration": 0.0,
+    "Duration": 1.0,
+    "CollideUnit": true,
+    "MaxHitUnitCount": 1,
+    "CollideUnitEffects": [
+      "damage;1;0;20101111;20101111",
+      "",
+      ""
+    ],
+    "CollideTerrain": false,
+    "CollideTerrainEffects": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "ID": 20122101,
+    "Description": "暗影狼-狼影冲锋",
+    "Mode": 1,
+    "FireMode": 0,
+    "FireArgs": [],
+    "FixedPointRandomOffset": 0.0,
+    "FireCount": 1,
+    "FireInterval": 0.0,
+    "FireBone": 10,
+    "FX": [],
+    "HitFX": [],
+    "SFX": 0,
+    "HitSFX": 0,
+    "Speed": -1.0,
+    "AngularSpeed": -1.0,
+    "Gravity": 0.0,
+    "FixedPointDuration": 0.0,
+    "Duration": 0.5,
+    "CollideUnit": true,
+    "MaxHitUnitCount": -1,
+    "CollideUnitEffects": [
+      "damage;1;0",
+      "",
+      ""
+    ],
+    "CollideTerrain": false,
+    "CollideTerrainEffects": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "ID": 30012101,
+    "Description": "领主-冲刺",
+    "Mode": 1,
+    "FireMode": 0,
+    "FireArgs": [],
+    "FixedPointRandomOffset": 0.0,
+    "FireCount": 1,
+    "FireInterval": 0.0,
+    "FireBone": 10,
+    "FX": [],
+    "HitFX": [],
+    "SFX": 0,
+    "HitSFX": 0,
+    "Speed": -1.0,
+    "AngularSpeed": -1.0,
+    "Gravity": 0.0,
+    "FixedPointDuration": 0.0,
+    "Duration": 0.5,
+    "CollideUnit": true,
+    "MaxHitUnitCount": -1,
+    "CollideUnitEffects": [
+      "damage;1;0",
+      "stiff;0.8",
+      "knock_back;0.3;35"
+    ],
+    "CollideTerrain": false,
+    "CollideTerrainEffects": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "ID": 30023101,
+    "Description": "蘑菇蛇将军-毒液",
+    "Mode": 2,
+    "FireMode": 0,
+    "FireArgs": [],
+    "FixedPointRandomOffset": 4.0,
+    "FireCount": 8,
+    "FireInterval": 0.1,
+    "FireBone": 10,
+    "FX": [
+      30023101
+    ],
+    "HitFX": [],
+    "SFX": 0,
+    "HitSFX": 0,
+    "Speed": 0.0,
+    "AngularSpeed": 0.0,
+    "Gravity": -6.0,
+    "FixedPointDuration": 0.5,
+    "Duration": 3.0,
+    "CollideUnit": false,
+    "MaxHitUnitCount": 0,
+    "CollideUnitEffects": [
+      "",
+      "",
+      ""
+    ],
+    "CollideTerrain": true,
+    "CollideTerrainEffects": [
+      "spell_field;30023101",
+      "",
+      ""
+    ]
+  },
+  {
+    "ID": 40011101,
+    "Description": "Boss-格雷恩-冲刺攻击",
+    "Mode": 1,
+    "FireMode": 0,
+    "FireArgs": [],
+    "FixedPointRandomOffset": 0.0,
+    "FireCount": 1,
+    "FireInterval": 0.0,
+    "FireBone": 10,
+    "FX": [],
+    "HitFX": [],
+    "SFX": 0,
+    "HitSFX": 0,
+    "Speed": -1.0,
+    "AngularSpeed": -1.0,
+    "Gravity": 0.0,
+    "FixedPointDuration": 0.0,
+    "Duration": 0.4,
+    "CollideUnit": true,
+    "MaxHitUnitCount": -1,
+    "CollideUnitEffects": [
+      "damage;1;0;10014015;10014015",
+      "stiff;0.5",
+      "knock_back;0.3;8"
+    ],
+    "CollideTerrain": false,
+    "CollideTerrainEffects": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "ID": 51000101,
+    "Description": "祝福-雷系-闪电链",
+    "Mode": 0,
+    "FireMode": 0,
+    "FireArgs": [],
+    "FixedPointRandomOffset": 0.0,
+    "FireCount": 1,
+    "FireInterval": 0.05,
+    "FireBone": 10,
+    "FX": [
+      51000002
+    ],
+    "HitFX": [],
+    "SFX": 0,
+    "HitSFX": 0,
+    "Speed": 40.0,
+    "AngularSpeed": -1.0,
+    "Gravity": 0.0,
+    "FixedPointDuration": 0.0,
+    "Duration": 5.0,
+    "CollideUnit": true,
+    "MaxHitUnitCount": 1,
+    "CollideUnitEffects": [
+      "add_buff;51000102",
+      "",
+      ""
+    ],
+    "CollideTerrain": false,
+    "CollideTerrainEffects": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "ID": 52000101,
+    "Description": "祝福-风系-飓风-普通",
+    "Mode": 0,
+    "FireMode": 1,
+    "FireArgs": [
+      45.0
+    ],
+    "FixedPointRandomOffset": 0.0,
+    "FireCount": 1,
+    "FireInterval": 0.0,
+    "FireBone": 10,
+    "FX": [
+      52000201
+    ],
+    "HitFX": [],
+    "SFX": 0,
+    "HitSFX": 0,
+    "Speed": 8.0,
+    "AngularSpeed": -1.0,
+    "Gravity": 0.0,
+    "FixedPointDuration": 0.0,
+    "Duration": 3.0,
+    "CollideUnit": true,
+    "MaxHitUnitCount": -1,
+    "CollideUnitEffects": [
+      "damage;0;10",
+      "add_buff;52032013",
+      ""
+    ],
+    "CollideTerrain": false,
+    "CollideTerrainEffects": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "ID": 52000102,
+    "Description": "祝福-风系-飓风-稀有",
+    "Mode": 0,
+    "FireMode": 1,
+    "FireArgs": [
+      45.0
+    ],
+    "FixedPointRandomOffset": 0.0,
+    "FireCount": 1,
+    "FireInterval": 0.0,
+    "FireBone": 10,
+    "FX": [
+      52000201
+    ],
+    "HitFX": [],
+    "SFX": 0,
+    "HitSFX": 0,
+    "Speed": 8.0,
+    "AngularSpeed": -1.0,
+    "Gravity": 0.0,
+    "FixedPointDuration": 0.0,
+    "Duration": 3.0,
+    "CollideUnit": true,
+    "MaxHitUnitCount": -1,
+    "CollideUnitEffects": [
+      "damage;0;18",
+      "add_buff;52032013",
+      ""
+    ],
+    "CollideTerrain": false,
+    "CollideTerrainEffects": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "ID": 52000103,
+    "Description": "祝福-风系-飓风-史诗",
+    "Mode": 0,
+    "FireMode": 1,
+    "FireArgs": [
+      45.0
+    ],
+    "FixedPointRandomOffset": 0.0,
+    "FireCount": 1,
+    "FireInterval": 0.0,
+    "FireBone": 10,
+    "FX": [
+      52000201
+    ],
+    "HitFX": [],
+    "SFX": 0,
+    "HitSFX": 0,
+    "Speed": 8.0,
+    "AngularSpeed": -1.0,
+    "Gravity": 0.0,
+    "FixedPointDuration": 0.0,
+    "Duration": 3.0,
+    "CollideUnit": true,
+    "MaxHitUnitCount": -1,
+    "CollideUnitEffects": [
+      "damage;0;29",
+      "add_buff;52032013",
+      ""
+    ],
+    "CollideTerrain": false,
+    "CollideTerrainEffects": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "ID": 52000104,
+    "Description": "祝福-风系-飓风-传说",
+    "Mode": 0,
+    "FireMode": 1,
+    "FireArgs": [
+      45.0
+    ],
+    "FixedPointRandomOffset": 0.0,
+    "FireCount": 1,
+    "FireInterval": 0.0,
+    "FireBone": 10,
+    "FX": [
+      52000201
+    ],
+    "HitFX": [],
+    "SFX": 0,
+    "HitSFX": 0,
+    "Speed": 8.0,
+    "AngularSpeed": -1.0,
+    "Gravity": 0.0,
+    "FixedPointDuration": 0.0,
+    "Duration": 3.0,
+    "CollideUnit": true,
+    "MaxHitUnitCount": -1,
+    "CollideUnitEffects": [
+      "damage;0;41",
+      "add_buff;52032013",
+      ""
+    ],
+    "CollideTerrain": false,
+    "CollideTerrainEffects": [
+      "",
+      "",
+      ""
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "ID": 7,
+    "Description": "主角受击无敌",
+    "Name": "",
+    "IsDebuff": false,
+    "ImmuneBuffs": [],
+    "MaxStack": 1,
+    "SameStackAction": 0,
+    "Duration": 0.5,
+    "TriggerType": 1,
+    "TriggerValue": [
+      0.01
+    ],
+    "TriggerTargetState": 0,
+    "TriggerProbability": [
+      1.0
+    ],
+    "TriggerInterval": [
+      0.0
+    ],
+    "TriggerCount": 1,
+    "RemoveWhenReachTriggerCount": false,
+    "FX": [],
+    "TriggerFX": [],
+    "AddSFX": 0,
+    "RemoveSFX": 0,
+    "TriggerHits": [
+      {
+        "DetectType": 1,
+        "DetectArgs": [],
+        "TargetRelation": -1,
+        "Effect": "immune:revert"
+      },
+      {
+        "DetectType": 0,
+        "DetectArgs": [],
+        "TargetRelation": 0,
+        "Effect": ""
+      }
+    ]
+  },
+  {
+    "ID": 10013001,
+    "Description": "Grane-旋风斩",
+    "Name": "",
+    "IsDebuff": false,
+    "ImmuneBuffs": [],
+    "MaxStack": 1,
+    "SameStackAction": 0,
+    "Duration": 3.0,
+    "TriggerType": 1,
+    "TriggerValue": [
+      0.0
+    ],
+    "TriggerTargetState": 0,
+    "TriggerProbability": [
+      1.0
+    ],
+    "TriggerInterval": [
+      0.2
+    ],
+    "TriggerCount": -1,
+    "RemoveWhenReachTriggerCount": false,
+    "FX": [],
+    "TriggerFX": [],
+    "AddSFX": 0,
+    "RemoveSFX": 0,
+    "TriggerHits": [
+      {
+        "DetectType": 5,
+        "DetectArgs": [
+          3.0
+        ],
+        "TargetRelation": 1,
+        "Effect": "damage;0.5;0;10013011;10013011"
+      },
+      {
+        "DetectType": 0,
+        "DetectArgs": [],
+        "TargetRelation": 0,
+        "Effect": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "ID": 1,
+    "Description": "力量增加",
+    "key": "skill0001",
+    "zh_cn": "力量+{0}",
+    "zh_tw": "力量+{0}",
+    "en_us": "Strength+{0}"
+  },
+  {
+    "ID": 2,
+    "Description": "智力增加",
+    "key": "skill0002",
+    "zh_cn": "智力+{0}",
+    "zh_tw": "智力+{0}",
+    "en_us": "Intelligence+{0}"
+  },
+  {
+    "ID": 3,
+    "Description": "敏捷增加",
+    "key": "skill0003",
+    "zh_cn": "敏捷+{0}",
+    "zh_tw": "敏捷+{0}",
+    "en_us": "Dexterity+{0}"
+  },
+  {
+    "ID": 4,
+    "Description": "体质增加",
+    "key": "skill0004",
+    "zh_cn": "耐力+{0}",
+    "zh_tw": "耐力+{0}",
+    "en_us": "Vitality+{0}"
+  },
+  {
+    "ID": 5,
+    "Description": "全属性",
+    "key": "skill0005",
+    "zh_cn": "全属性+{0}",
+    "zh_tw": "全屬性+{0}",
+    "en_us": "All Attributes+{0}"
+  },
+  {
+    "ID": 6,
+    "Description": "增加生命百分比",
+    "key": "skill0006",
+    "zh_cn": "生命+{0}%",
+    "zh_tw": "生命+{0}%",
+    "en_us": "Life+{0}%"
+  },
+  {
+    "ID": 7,
+    "Description": "攻击强度",
+    "key": "skill0007",
+    "zh_cn": "攻击强度+{0}",
+    "zh_tw": "攻擊強度+{0}",
+    "en_us": "Attack+{0}"
+  },
+  {
+    "ID": 8,
+    "Description": "附加伤害",
+    "key": "skill0008",
+    "zh_cn": "附加{0}-{0}伤害",
+    "zh_tw": "附加{0}-{0}傷害",
+    "en_us": "+{0}-{0} Damage"
+  },
+  {
+    "ID": 9,
+    "Description": "附加冰霜伤害",
+    "key": "skill0009",
+    "zh_cn": "附加{0}-{0}冰霜伤害",
+    "zh_tw": "附加{0}-{0}冰霜傷害",
+    "en_us": "+{0}-{0} Cold Damage"
+  },
+  {
+    "ID": 10,
+    "Description": "附加火焰伤害",
+    "key": "skill0010",
+    "zh_cn": "附加{0}-{0}火焰伤害",
+    "zh_tw": "附加{0}-{0}火焰傷害",
+    "en_us": "+{0}-{0} Fire Damage"
+  },
+  {
+    "ID": 11,
+    "Description": "附加闪电伤害",
+    "key": "skill0011",
+    "zh_cn": "附加{0}-{0}闪电伤害",
+    "zh_tw": "附加{0}-{0}閃電傷害",
+    "en_us": "+{0}-{0} Lightning Damage"
+  },
+  {
+    "ID": 12,
+    "Description": "附加毒素伤害",
+    "key": "skill0012",
+    "zh_cn": "附加{0}-{0}毒素伤害",
+    "zh_tw": "附加{0}-{0}毒素傷害",
+    "en_us": "+{0}-{0} Poison Damage"
+  },
+  {
+    "ID": 13,
+    "Description": "增加冰霜抗性",
+    "key": "skill0013",
+    "zh_cn": "冰霜抗性+{0}",
+    "zh_tw": "冰霜抗性+{0}",
+    "en_us": "Cold Resistance+{0}"
+  },
+  {
+    "ID": 14,
+    "Description": "增加火焰抗性",
+    "key": "skill0014",
+    "zh_cn": "火焰抗性+{0}",
+    "zh_tw": "火焰抗性+{0}",
+    "en_us": "Fire Resistance+{0}"
+  },
+  {
+    "ID": 15,
+    "Description": "增加闪电抗性",
+    "key": "skill0015",
+    "zh_cn": "闪电抗性+{0}",
+    "zh_tw": "閃電抗性+{0}",
+    "en_us": "Lightning Resistance+{0}"
+  },
+  {
+    "ID": 16,
+    "Description": "增加毒素抗性",
+    "key": "skill0016",
+    "zh_cn": "毒素抗性+{0}",
+    "zh_tw": "毒素抗性+{0}",
+    "en_us": "Poison Resistance+{0}"
+  },
+  {
+    "ID": 17,
+    "Description": "增加物理抗性",
+    "key": "skill0017",
+    "zh_cn": "物理抗性+{0}",
+    "zh_tw": "物理抗性+{0}",
+    "en_us": "Physical Resistance+{0}"
+  },
+  {
+    "ID": 18,
+    "Description": "全抗性",
+    "key": "skill0018",
+    "zh_cn": "全抗性+{0}",
+    "zh_tw": "全抗性+{0}",
+    "en_us": "All Resistance+{0}"
+  },
+  {
+    "ID": 19,
+    "Description": "增加精准",
+    "key": "skill0019",
+    "zh_cn": "精准+{0}",
+    "zh_tw": "精準+{0}",
+    "en_us": "Precision+{0}"
+  },
+  {
+    "ID": 20,
+    "Description": "增加闪避率",
+    "key": "skill0020",
+    "zh_cn": "闪避率+{0}%",
+    "zh_tw": "閃避率+{0}%",
+    "en_us": "Evasion+{0}%"
+  },
+  {
+    "ID": 21,
+    "Description": "增加暴击几率",
+    "key": "skill0021",
+    "zh_cn": "暴击几率+{0}%",
+    "zh_tw": "暴擊幾率+{0}%",
+    "en_us": "Critical Hit+{0}%"
+  },
+  {
+    "ID": 22,
+    "Description": "增加暴击伤害",
+    "key": "skill0022",
+    "zh_cn": "暴击伤害+{0}%",
+    "zh_tw": "暴擊傷害+{0}%",
+    "en_us": "Critical Hit Damage+{0}%"
+  },
+  {
+    "ID": 23,
+    "Description": "增加移动速度百分比",
+    "key": "skill0023",
+    "zh_cn": "移动速度百分比+{0}%",
+    "zh_tw": "移動速度+{0}%",
+    "en_us": "Movement Speed+{0}%"
+  },
+  {
+    "ID": 24,
+    "Description": "每秒回复生命",
+    "key": "skill0024",
+    "zh_cn": "每秒回复生命+{0}",
+    "zh_tw": "每秒回復生命+{0}",
+    "en_us": "Life per Second+{0}"
+  },
+  {
+    "ID": 25,
+    "Description": "击中回复生命",
+    "key": "skill0025",
+    "zh_cn": "击中回复生命+{0}",
+    "zh_tw": "擊中回復生命+{0}",
+    "en_us": "Life per Hit+{0}"
+  },
+  {
+    "ID": 26,
+    "Description": "击杀回复生命",
+    "key": "skill0026",
+    "zh_cn": "击杀回复生命+{0}",
+    "zh_tw": "擊殺回復生命+{0}",
+    "en_us": "Life per Kill+{0}"
+  }
+]

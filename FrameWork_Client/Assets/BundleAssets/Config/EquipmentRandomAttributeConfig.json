@@ -1,0 +1,806 @@
+[
+  {
+    "ID": 1,
+    "Description": "增加力量",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 101,
+        "GrowInterval": [
+          1.0,
+          4.0
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0001"
+  },
+  {
+    "ID": 2,
+    "Description": "增加力量",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 101,
+        "GrowInterval": [
+          5.0,
+          10.0
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0001"
+  },
+  {
+    "ID": 3,
+    "Description": "增加智力",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 201,
+        "GrowInterval": [
+          1.0,
+          4.0
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0002"
+  },
+  {
+    "ID": 4,
+    "Description": "增加智力",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 201,
+        "GrowInterval": [
+          5.0,
+          9.0
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0002"
+  },
+  {
+    "ID": 5,
+    "Description": "增加敏捷",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 301,
+        "GrowInterval": [
+          1.0,
+          4.0
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0003"
+  },
+  {
+    "ID": 6,
+    "Description": "增加敏捷",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 301,
+        "GrowInterval": [
+          5.0,
+          9.0
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0003"
+  },
+  {
+    "ID": 7,
+    "Description": "增加体质",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 401,
+        "GrowInterval": [
+          1.0,
+          4.0
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0004"
+  },
+  {
+    "ID": 8,
+    "Description": "增加体质",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 401,
+        "GrowInterval": [
+          5.0,
+          9.0
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0004"
+  },
+  {
+    "ID": 9,
+    "Description": "增加全属性",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 501,
+        "GrowInterval": [
+          1.0,
+          4.0
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0005"
+  },
+  {
+    "ID": 10,
+    "Description": "增加全属性",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 501,
+        "GrowInterval": [
+          5.0,
+          9.0
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0005"
+  },
+  {
+    "ID": 11,
+    "Description": "增加生命百分比",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 602,
+        "GrowInterval": [
+          0.2,
+          0.3
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0006"
+  },
+  {
+    "ID": 12,
+    "Description": "增加伤害",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1001,
+        "GrowInterval": [
+          7.0,
+          14.0
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0007"
+  },
+  {
+    "ID": 13,
+    "Description": "增加伤害",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1001,
+        "GrowInterval": [
+          14.0,
+          21.0
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0007"
+  },
+  {
+    "ID": 14,
+    "Description": "附加伤害",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1003,
+        "GrowInterval": [
+          4.0,
+          7.0
+        ]
+      },
+      {
+        "AttributeId": 1004,
+        "GrowInterval": [
+          8.0,
+          14.0
+        ]
+      }
+    ],
+    "AttibuteShow": "skill0008"
+  },
+  {
+    "ID": 15,
+    "Description": "附加伤害",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1003,
+        "GrowInterval": [
+          11.0,
+          14.0
+        ]
+      },
+      {
+        "AttributeId": 1004,
+        "GrowInterval": [
+          15.0,
+          21.0
+        ]
+      }
+    ],
+    "AttibuteShow": "skill0008"
+  },
+  {
+    "ID": 16,
+    "Description": "附加冰霜伤害",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1103,
+        "GrowInterval": [
+          4.0,
+          7.0
+        ]
+      },
+      {
+        "AttributeId": 1104,
+        "GrowInterval": [
+          8.0,
+          14.0
+        ]
+      }
+    ],
+    "AttibuteShow": "skill0009"
+  },
+  {
+    "ID": 17,
+    "Description": "附加冰霜伤害",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1103,
+        "GrowInterval": [
+          11.0,
+          14.0
+        ]
+      },
+      {
+        "AttributeId": 1104,
+        "GrowInterval": [
+          15.0,
+          21.0
+        ]
+      }
+    ],
+    "AttibuteShow": "skill0009"
+  },
+  {
+    "ID": 18,
+    "Description": "附加火焰伤害",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1203,
+        "GrowInterval": [
+          4.0,
+          7.0
+        ]
+      },
+      {
+        "AttributeId": 1204,
+        "GrowInterval": [
+          8.0,
+          14.0
+        ]
+      }
+    ],
+    "AttibuteShow": "skill0010"
+  },
+  {
+    "ID": 19,
+    "Description": "附加火焰伤害",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1203,
+        "GrowInterval": [
+          11.0,
+          14.0
+        ]
+      },
+      {
+        "AttributeId": 1204,
+        "GrowInterval": [
+          15.0,
+          21.0
+        ]
+      }
+    ],
+    "AttibuteShow": "skill0010"
+  },
+  {
+    "ID": 20,
+    "Description": "附加闪电伤害",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1303,
+        "GrowInterval": [
+          4.0,
+          7.0
+        ]
+      },
+      {
+        "AttributeId": 1304,
+        "GrowInterval": [
+          8.0,
+          14.0
+        ]
+      }
+    ],
+    "AttibuteShow": "skill0011"
+  },
+  {
+    "ID": 21,
+    "Description": "附加闪电伤害",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1303,
+        "GrowInterval": [
+          11.0,
+          14.0
+        ]
+      },
+      {
+        "AttributeId": 1304,
+        "GrowInterval": [
+          15.0,
+          21.0
+        ]
+      }
+    ],
+    "AttibuteShow": "skill0011"
+  },
+  {
+    "ID": 22,
+    "Description": "附加毒素伤害",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1403,
+        "GrowInterval": [
+          4.0,
+          7.0
+        ]
+      },
+      {
+        "AttributeId": 1404,
+        "GrowInterval": [
+          8.0,
+          14.0
+        ]
+      }
+    ],
+    "AttibuteShow": "skill0012"
+  },
+  {
+    "ID": 23,
+    "Description": "附加毒素伤害",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1403,
+        "GrowInterval": [
+          11.0,
+          14.0
+        ]
+      },
+      {
+        "AttributeId": 1404,
+        "GrowInterval": [
+          15.0,
+          21.0
+        ]
+      }
+    ],
+    "AttibuteShow": "skill0012"
+  },
+  {
+    "ID": 24,
+    "Description": "增加冰霜抗性",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1701,
+        "GrowInterval": [
+          1.0,
+          2.5
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0013"
+  },
+  {
+    "ID": 25,
+    "Description": "增加冰霜抗性",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1701,
+        "GrowInterval": [
+          2.5,
+          4.5
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0013"
+  },
+  {
+    "ID": 26,
+    "Description": "增加火焰抗性",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1801,
+        "GrowInterval": [
+          1.0,
+          2.5
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0014"
+  },
+  {
+    "ID": 27,
+    "Description": "增加火焰抗性",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1801,
+        "GrowInterval": [
+          2.5,
+          4.5
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0014"
+  },
+  {
+    "ID": 28,
+    "Description": "增加闪电抗性",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1901,
+        "GrowInterval": [
+          1.0,
+          2.5
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0015"
+  },
+  {
+    "ID": 29,
+    "Description": "增加闪电抗性",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 1901,
+        "GrowInterval": [
+          2.5,
+          4.5
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0015"
+  },
+  {
+    "ID": 30,
+    "Description": "增加毒素抗性",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 2001,
+        "GrowInterval": [
+          1.0,
+          2.5
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0016"
+  },
+  {
+    "ID": 31,
+    "Description": "增加毒素抗性",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 2001,
+        "GrowInterval": [
+          2.5,
+          4.5
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0016"
+  },
+  {
+    "ID": 32,
+    "Description": "增加物理抗性",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 2101,
+        "GrowInterval": [
+          1.0,
+          2.5
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0017"
+  },
+  {
+    "ID": 33,
+    "Description": "增加物理抗性",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 2101,
+        "GrowInterval": [
+          2.5,
+          4.5
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0017"
+  },
+  {
+    "ID": 34,
+    "Description": "增加全抗性",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 2201,
+        "GrowInterval": [
+          1.0,
+          2.5
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0018"
+  },
+  {
+    "ID": 35,
+    "Description": "增加全抗性",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 2201,
+        "GrowInterval": [
+          2.5,
+          4.5
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0018"
+  },
+  {
+    "ID": 36,
+    "Description": "增加精准",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 2801,
+        "GrowInterval": [
+          3.0,
+          6.0
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0019"
+  },
+  {
+    "ID": 37,
+    "Description": "增加闪避率",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 2901,
+        "GrowInterval": [
+          0.02,
+          0.05
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0020"
+  },
+  {
+    "ID": 38,
+    "Description": "增加暴击几率",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 3001,
+        "GrowInterval": [
+          0.013,
+          0.025
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0021"
+  },
+  {
+    "ID": 39,
+    "Description": "增加暴击伤害",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 3101,
+        "GrowInterval": [
+          0.1,
+          0.2
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0022"
+  },
+  {
+    "ID": 40,
+    "Description": "增加移动速度",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 3601,
+        "GrowInterval": [
+          10.0,
+          20.0
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0023"
+  },
+  {
+    "ID": 41,
+    "Description": "每秒回复生命",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 4501,
+        "GrowInterval": [
+          4.0,
+          8.0
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0024"
+  },
+  {
+    "ID": 42,
+    "Description": "击中回复生命",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 4601,
+        "GrowInterval": [
+          4.0,
+          8.0
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0025"
+  },
+  {
+    "ID": 43,
+    "Description": "击杀回复生命",
+    "RandomAttributeIds": [
+      {
+        "AttributeId": 4701,
+        "GrowInterval": [
+          20.0,
+          30.0
+        ]
+      },
+      {
+        "AttributeId": 0,
+        "GrowInterval": []
+      }
+    ],
+    "AttibuteShow": "skill0026"
+  }
+]

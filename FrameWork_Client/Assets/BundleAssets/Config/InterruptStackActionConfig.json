@@ -1,0 +1,68 @@
+[
+  {
+    "ID": 1,
+    "Description": "僵直",
+    "StateType": 1,
+    "Stiff": 1,
+    "Stun": 0,
+    "KnockFloat": 0,
+    "KnockDown": 0,
+    "GetUp": 0,
+    "Hold": 0
+  },
+  {
+    "ID": 2,
+    "Description": "眩晕",
+    "StateType": 2,
+    "Stiff": 1,
+    "Stun": 1,
+    "KnockFloat": 0,
+    "KnockDown": 0,
+    "GetUp": 0,
+    "Hold": 0
+  },
+  {
+    "ID": 3,
+    "Description": "击飞",
+    "StateType": 3,
+    "Stiff": 1,
+    "Stun": 1,
+    "KnockFloat": 1,
+    "KnockDown": 1,
+    "GetUp": 1,
+    "Hold": 0
+  },
+  {
+    "ID": 4,
+    "Description": "击倒",
+    "StateType": 4,
+    "Stiff": 1,
+    "Stun": 1,
+    "KnockFloat": 0,
+    "KnockDown": 0,
+    "GetUp": 1,
+    "Hold": 0
+  },
+  {
+    "ID": 5,
+    "Description": "起身",
+    "StateType": 5,
+    "Stiff": 1,
+    "Stun": 1,
+    "KnockFloat": 1,
+    "KnockDown": 1,
+    "GetUp": 0,
+    "Hold": 0
+  },
+  {
+    "ID": 6,
+    "Description": "定身",
+    "StateType": 6,
+    "Stiff": 1,
+    "Stun": 1,
+    "KnockFloat": 1,
+    "KnockDown": 1,
+    "GetUp": 1,
+    "Hold": 0
+  }
+]

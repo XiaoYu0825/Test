@@ -1,0 +1,505 @@
+[
+  {
+    "ID": 1,
+    "Description": "双手剑01",
+    "ItemType": 0,
+    "Jobs": 1,
+    "Parts": 3,
+    "LimitLevel": 0,
+    "LimitAttribute": [],
+    "RandomAttributeDatas": [
+      {
+        "AttributeType": 1003,
+        "AttributeInterval": [
+          8.0,
+          12.0
+        ]
+      },
+      {
+        "AttributeType": 1004,
+        "AttributeInterval": [
+          16.0,
+          22.0
+        ]
+      }
+    ],
+    "AttributeGroupId": 1001,
+    "MaxGemSlot": 6,
+    "AttackSpeed": 0.0,
+    "Icon": "",
+    "EquipDescribe": "",
+    "EquipmentShowModel": "Assets/BundleAssets/Model/Item/Weapon/Weapon_Default.prefab",
+    "EquipmentHighQuality": "Assets/BundleAssets/Model/Item/Weapon/Weapon_Default_HQ.prefab",
+    "EquipmentDropModel": "Assets/BundleAssets/Model/Item/Drops/Surtalogi.prefab",
+    "EquipmentQualityInterval": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "ID": 2,
+    "Description": "帽子01",
+    "ItemType": 0,
+    "Jobs": 0,
+    "Parts": 4,
+    "LimitLevel": 0,
+    "LimitAttribute": [],
+    "RandomAttributeDatas": [
+      {
+        "AttributeType": 1501,
+        "AttributeInterval": [
+          5.0,
+          10.0
+        ]
+      },
+      {
+        "AttributeType": 0,
+        "AttributeInterval": []
+      }
+    ],
+    "AttributeGroupId": 1002,
+    "MaxGemSlot": 4,
+    "AttackSpeed": 0.0,
+    "Icon": "",
+    "EquipDescribe": "",
+    "EquipmentShowModel": "",
+    "EquipmentHighQuality": "",
+    "EquipmentDropModel": "Assets/BundleAssets/Model/Item/Drops/Helmet.prefab",
+    "EquipmentQualityInterval": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "ID": 3,
+    "Description": "衣服01",
+    "ItemType": 0,
+    "Jobs": 0,
+    "Parts": 8,
+    "LimitLevel": 0,
+    "LimitAttribute": [],
+    "RandomAttributeDatas": [
+      {
+        "AttributeType": 1501,
+        "AttributeInterval": [
+          5.0,
+          10.0
+        ]
+      },
+      {
+        "AttributeType": 0,
+        "AttributeInterval": []
+      }
+    ],
+    "AttributeGroupId": 1002,
+    "MaxGemSlot": 4,
+    "AttackSpeed": 0.0,
+    "Icon": "",
+    "EquipDescribe": "",
+    "EquipmentShowModel": "",
+    "EquipmentHighQuality": "",
+    "EquipmentDropModel": "Assets/BundleAssets/Model/Item/Drops/Armor.prefab",
+    "EquipmentQualityInterval": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "ID": 4,
+    "Description": "裤子01",
+    "ItemType": 0,
+    "Jobs": 0,
+    "Parts": 16,
+    "LimitLevel": 0,
+    "LimitAttribute": [],
+    "RandomAttributeDatas": [
+      {
+        "AttributeType": 1501,
+        "AttributeInterval": [
+          5.0,
+          10.0
+        ]
+      },
+      {
+        "AttributeType": 0,
+        "AttributeInterval": []
+      }
+    ],
+    "AttributeGroupId": 1002,
+    "MaxGemSlot": 4,
+    "AttackSpeed": 0.0,
+    "Icon": "",
+    "EquipDescribe": "",
+    "EquipmentShowModel": "",
+    "EquipmentHighQuality": "",
+    "EquipmentDropModel": "Assets/BundleAssets/Model/Item/Drops/Bottom.prefab",
+    "EquipmentQualityInterval": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "ID": 5,
+    "Description": "鞋子01",
+    "ItemType": 0,
+    "Jobs": 0,
+    "Parts": 32,
+    "LimitLevel": 0,
+    "LimitAttribute": [],
+    "RandomAttributeDatas": [
+      {
+        "AttributeType": 1501,
+        "AttributeInterval": [
+          5.0,
+          10.0
+        ]
+      },
+      {
+        "AttributeType": 0,
+        "AttributeInterval": []
+      }
+    ],
+    "AttributeGroupId": 1003,
+    "MaxGemSlot": 4,
+    "AttackSpeed": 0.0,
+    "Icon": "",
+    "EquipDescribe": "",
+    "EquipmentShowModel": "",
+    "EquipmentHighQuality": "",
+    "EquipmentDropModel": "Assets/BundleAssets/Model/Item/Drops/Shoes.prefab",
+    "EquipmentQualityInterval": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "ID": 6,
+    "Description": "护手01",
+    "ItemType": 0,
+    "Jobs": 0,
+    "Parts": 64,
+    "LimitLevel": 0,
+    "LimitAttribute": [],
+    "RandomAttributeDatas": [
+      {
+        "AttributeType": 1501,
+        "AttributeInterval": [
+          5.0,
+          10.0
+        ]
+      },
+      {
+        "AttributeType": 0,
+        "AttributeInterval": []
+      }
+    ],
+    "AttributeGroupId": 1004,
+    "MaxGemSlot": 4,
+    "AttackSpeed": 0.0,
+    "Icon": "",
+    "EquipDescribe": "",
+    "EquipmentShowModel": "",
+    "EquipmentHighQuality": "",
+    "EquipmentDropModel": "Assets/BundleAssets/Model/Item/Drops/Gloves.prefab",
+    "EquipmentQualityInterval": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "ID": 7,
+    "Description": "饰品01",
+    "ItemType": 0,
+    "Jobs": 0,
+    "Parts": 128,
+    "LimitLevel": 0,
+    "LimitAttribute": [],
+    "RandomAttributeDatas": [
+      {
+        "AttributeType": 2201,
+        "AttributeInterval": [
+          1.0,
+          2.5
+        ]
+      },
+      {
+        "AttributeType": 0,
+        "AttributeInterval": []
+      }
+    ],
+    "AttributeGroupId": 1005,
+    "MaxGemSlot": 1,
+    "AttackSpeed": 0.0,
+    "Icon": "",
+    "EquipDescribe": "",
+    "EquipmentShowModel": "",
+    "EquipmentHighQuality": "",
+    "EquipmentDropModel": "Assets/BundleAssets/Model/Item/Drops/Jewelry.prefab",
+    "EquipmentQualityInterval": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "ID": 8,
+    "Description": "双手剑02",
+    "ItemType": 0,
+    "Jobs": 1,
+    "Parts": 3,
+    "LimitLevel": 0,
+    "LimitAttribute": [],
+    "RandomAttributeDatas": [
+      {
+        "AttributeType": 1003,
+        "AttributeInterval": [
+          18.0,
+          22.0
+        ]
+      },
+      {
+        "AttributeType": 1004,
+        "AttributeInterval": [
+          26.0,
+          32.0
+        ]
+      }
+    ],
+    "AttributeGroupId": 2001,
+    "MaxGemSlot": 4,
+    "AttackSpeed": 0.0,
+    "Icon": "",
+    "EquipDescribe": "",
+    "EquipmentShowModel": "Assets/BundleAssets/Model/Item/Weapon/Surtalogi.prefab",
+    "EquipmentHighQuality": "Assets/BundleAssets/Model/Item/Weapon/Weapon_Default_HQ.prefab",
+    "EquipmentDropModel": "Assets/BundleAssets/Model/Item/Drops/Surtalogi.prefab",
+    "EquipmentQualityInterval": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "ID": 9,
+    "Description": "帽子02",
+    "ItemType": 0,
+    "Jobs": 0,
+    "Parts": 4,
+    "LimitLevel": 0,
+    "LimitAttribute": [],
+    "RandomAttributeDatas": [
+      {
+        "AttributeType": 1501,
+        "AttributeInterval": [
+          12.0,
+          18.0
+        ]
+      },
+      {
+        "AttributeType": 0,
+        "AttributeInterval": []
+      }
+    ],
+    "AttributeGroupId": 2002,
+    "MaxGemSlot": 4,
+    "AttackSpeed": 0.0,
+    "Icon": "",
+    "EquipDescribe": "",
+    "EquipmentShowModel": "",
+    "EquipmentHighQuality": "",
+    "EquipmentDropModel": "Assets/BundleAssets/Model/Item/Drops/Helmet.prefab",
+    "EquipmentQualityInterval": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "ID": 10,
+    "Description": "衣服02",
+    "ItemType": 0,
+    "Jobs": 0,
+    "Parts": 8,
+    "LimitLevel": 0,
+    "LimitAttribute": [],
+    "RandomAttributeDatas": [
+      {
+        "AttributeType": 1501,
+        "AttributeInterval": [
+          12.0,
+          18.0
+        ]
+      },
+      {
+        "AttributeType": 0,
+        "AttributeInterval": []
+      }
+    ],
+    "AttributeGroupId": 2002,
+    "MaxGemSlot": 4,
+    "AttackSpeed": 0.0,
+    "Icon": "",
+    "EquipDescribe": "",
+    "EquipmentShowModel": "",
+    "EquipmentHighQuality": "",
+    "EquipmentDropModel": "Assets/BundleAssets/Model/Item/Drops/Armor.prefab",
+    "EquipmentQualityInterval": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "ID": 11,
+    "Description": "裤子02",
+    "ItemType": 0,
+    "Jobs": 0,
+    "Parts": 16,
+    "LimitLevel": 0,
+    "LimitAttribute": [],
+    "RandomAttributeDatas": [
+      {
+        "AttributeType": 1501,
+        "AttributeInterval": [
+          12.0,
+          18.0
+        ]
+      },
+      {
+        "AttributeType": 0,
+        "AttributeInterval": []
+      }
+    ],
+    "AttributeGroupId": 2002,
+    "MaxGemSlot": 4,
+    "AttackSpeed": 0.0,
+    "Icon": "",
+    "EquipDescribe": "",
+    "EquipmentShowModel": "",
+    "EquipmentHighQuality": "",
+    "EquipmentDropModel": "Assets/BundleAssets/Model/Item/Drops/Bottom.prefab",
+    "EquipmentQualityInterval": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "ID": 12,
+    "Description": "鞋子02",
+    "ItemType": 0,
+    "Jobs": 0,
+    "Parts": 32,
+    "LimitLevel": 0,
+    "LimitAttribute": [],
+    "RandomAttributeDatas": [
+      {
+        "AttributeType": 1501,
+        "AttributeInterval": [
+          12.0,
+          18.0
+        ]
+      },
+      {
+        "AttributeType": 0,
+        "AttributeInterval": []
+      }
+    ],
+    "AttributeGroupId": 2003,
+    "MaxGemSlot": 4,
+    "AttackSpeed": 0.0,
+    "Icon": "",
+    "EquipDescribe": "",
+    "EquipmentShowModel": "",
+    "EquipmentHighQuality": "",
+    "EquipmentDropModel": "Assets/BundleAssets/Model/Item/Drops/Shoes.prefab",
+    "EquipmentQualityInterval": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "ID": 13,
+    "Description": "护手02",
+    "ItemType": 0,
+    "Jobs": 0,
+    "Parts": 64,
+    "LimitLevel": 0,
+    "LimitAttribute": [],
+    "RandomAttributeDatas": [
+      {
+        "AttributeType": 1501,
+        "AttributeInterval": [
+          12.0,
+          18.0
+        ]
+      },
+      {
+        "AttributeType": 0,
+        "AttributeInterval": []
+      }
+    ],
+    "AttributeGroupId": 2004,
+    "MaxGemSlot": 4,
+    "AttackSpeed": 0.0,
+    "Icon": "",
+    "EquipDescribe": "",
+    "EquipmentShowModel": "",
+    "EquipmentHighQuality": "",
+    "EquipmentDropModel": "Assets/BundleAssets/Model/Item/Drops/Gloves.prefab",
+    "EquipmentQualityInterval": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "ID": 14,
+    "Description": "饰品02",
+    "ItemType": 0,
+    "Jobs": 0,
+    "Parts": 128,
+    "LimitLevel": 0,
+    "LimitAttribute": [],
+    "RandomAttributeDatas": [
+      {
+        "AttributeType": 2201,
+        "AttributeInterval": [
+          2.5,
+          4.5
+        ]
+      },
+      {
+        "AttributeType": 0,
+        "AttributeInterval": []
+      }
+    ],
+    "AttributeGroupId": 2005,
+    "MaxGemSlot": 1,
+    "AttackSpeed": 0.0,
+    "Icon": "",
+    "EquipDescribe": "",
+    "EquipmentShowModel": "",
+    "EquipmentHighQuality": "",
+    "EquipmentDropModel": "Assets/BundleAssets/Model/Item/Drops/Jewelry.prefab",
+    "EquipmentQualityInterval": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+]

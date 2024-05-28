@@ -57,30 +57,120 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Common\Ext\TransformExt.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\ItemType.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Procedure\CreateLoginProcedure.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Game\UI\TestUI\TestUIMessageHandler.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\EquipmentBasePropertyConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Assets\Pool\GameObjectPoolAsset.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\I18NConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\ECS\System\ISystem.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\ItemTypeGroup.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\PlayerForge.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\BuffHitData.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\EquipmentRandomAttributeConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\FireMode.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\BuffConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\RandomAttributeGroupConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\ECS\Component\ECSComponent.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\EquipmentQualityConfig.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Procedure\LaunchProcedure.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\UIMode.cs" />
     <Compile Include="Assets\Scripts\BaseProtocol.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Assets\AssetModule.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Game\UI\TestUI\TestUIView.cs" />
     <Compile Include="Assets\Scripts\ProtocolPool.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\SpellFieldConfig.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Procedure\ProcedureModule.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Assets\AssetLoadState.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Common\Ext\ListExt.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\ExperienceGrowthConfig.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Message\Monitor.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\DungeonConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\FXConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\UI\UIMediator.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\ECS\System\FixedUpdateSystem.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Net\NetModule.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\SkillConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\ECS\Entity\ECSWorld.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\UI\UIView.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Message\MessageModule.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\UIConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\Parts.cs" />
+    <Compile Include="Assets\Scripts\Test.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\ConfigManager.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\SkillHitData.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Game\UI\TestUI\TestUIMedediator.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\BuffSameStackActionType.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Assets\AssetData.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Assets\AssetModule.Pool.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\ECS\Entity\ECSEntity.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\GameManager.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Net\ByteBuffer.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\CombatFormulaConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\ECS\System\ECSSystemAttribute.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\InterruptStackActionConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\InterruptStateType.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\DropRewardGroupConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\RandomAttributeId.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\InterruptStackActionType.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\SpellFieldDetectType.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\BulletMode.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\SkillGroupType.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\MonsterType.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Procedure\BaseProcedure.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\TGameFramework.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\SkillCDConfig.cs" />
     <Compile Include="Assets\Scripts\MessageType.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Game\UIViewID\UIViewID.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\CharacterRelationType.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\ECS\System\AwakeSystem.cs" />
     <Compile Include="Assets\Scripts\BaseGameModule.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Assets\Pool\GameObjectAsset.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\PlayerConfig.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Common\MonoSingleton.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\SpriteConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Assets\AssetLoadTask.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\AttributeType.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Common\ObjectPool.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Common\Utility.Types.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Message\MessageHandler.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\ECS\ECSModule.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\GlobalConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\Jobs.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\FXBindBone.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\SkillDetectType.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\CharacterConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\AttributeMapConfig.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Common\Singleton.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\RandomAttributeData.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\ECS\System\UpdateSystem.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\ECS\System\LateUpdateSystem.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\ShopConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\SkillDetectCenterType.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\MainAttribute.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\ECS\EntityMessageHandler.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Net\Net\MsgAdapter.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\CharacterState.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Assets\Pool\GameObjectLoadRequest.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\BulletConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\SkillTargetType.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\SkillCastLimit.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Assets\Pool\GameObjectLoadState.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\ECS\System\DestroySystem.cs" />
     <Compile Include="Assets\Scripts\AwaitExtensions.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\FXPlayMode.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\AudioConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\UI\UIModule.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\PropConfig.cs" />
     <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Procedure\InitProcedure.cs" />
-    <Compile Include="Assets\Scripts\Test.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\ECS\IDGenerator.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\DungeonMapConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\BuffTriggerType.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\ECS\Entity\ECSScene.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\StrengthenConfig.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\GameFramework\Assets\Pool\GameObjectPool.cs" />
+    <Compile Include="Assets\Scripts\HotUpdate\Config\Code\PropType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Nirvana\Shaders\UI-Effect.shader" />
@@ -88,10 +178,14 @@
     <None Include="Assets\Nirvana\Plugins\Standalone\NirvanaRuntime.dll" />
     <None Include="Assets\Nirvana\Plugins\NirvanaRuntime.dll" />
     <None Include="Assets\Nirvana\Plugins\Standalone\NirvanaNative.dll" />
+    <None Include="Assets\QFSW\Quantum Console\Source\Third-Party Notices.txt" />
     <None Include="Assets\Nirvana\Plugins\NirvanaNative.dll" />
+    <None Include="Assets\QFSW\Quantum Console\Source\changelog.txt" />
+    <None Include="Assets\QFSW\Quantum Console\Source\Fonts\LICENSE.txt" />
     <None Include="Assets\Nirvana\Plugins\Android\NirvanaRuntime.dll" />
     <None Include="Assets\Nirvana\Plugins\iOS\NirvanaNative.dll" />
     <None Include="Assets\Nirvana\Plugins\iOS\NirvanaRuntime.dll" />
+    <None Include="Assets\QFSW\Quantum Console\Source\Shaders\Blur.shader" />
     <None Include="Assets\Nirvana\Plugins\Android\NirvanaNative.dll" />
     <None Include="Assets\Nirvana\Shaders\GridCell.shader" />
   </ItemGroup>
@@ -348,6 +442,9 @@
     <Reference Include="NirvanaRuntime">
       <HintPath>Assets\Nirvana\Plugins\NirvanaRuntime.dll</HintPath>
     </Reference>
+    <Reference Include="mcs">
+      <HintPath>Assets\QFSW\Quantum Console\Source\Extras\exec\CSharpCompiler\Plugins\mcs.dll</HintPath>
+    </Reference>
     <Reference Include="UnityLog">
       <HintPath>Assets\Plugins\UnityLog.dll</HintPath>
     </Reference>
@@ -359,6 +456,9 @@
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="NLog">
       <HintPath>Assets\Plugins\NLog.dll</HintPath>
@@ -747,8 +847,8 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    <Reference Include="UnityEditor.CacheServer">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
@@ -762,8 +862,8 @@
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="Unity.Addressables">
+      <HintPath>Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
@@ -780,8 +880,8 @@
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
@@ -795,23 +895,77 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="QFSW.QC.Serializers.csproj">
+      <Project>{8F6A2924-EDF0-2BDF-A3C3-3A25AB57F82E}</Project>
+      <Name>QFSW.QC.Serializers</Name>
+    </ProjectReference>
+    <ProjectReference Include="QFSW.QC.Grammar.csproj">
+      <Project>{9E76F9F5-0212-F67E-3584-2A943C92D934}</Project>
+      <Name>QFSW.QC.Grammar</Name>
+    </ProjectReference>
+    <ProjectReference Include="QFSW.QC.QGUI.csproj">
+      <Project>{60C0A5D3-9B51-0336-7FBB-0969C85D91B9}</Project>
+      <Name>QFSW.QC.QGUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="QFSW.QC.csproj">
+      <Project>{F46B5C8A-F24C-EDA6-7C58-941D7DC68C78}</Project>
+      <Name>QFSW.QC</Name>
+    </ProjectReference>
+    <ProjectReference Include="QFSW.QC.UI.csproj">
+      <Project>{24E32BE8-B574-06FE-83CF-B5958DC7990A}</Project>
+      <Name>QFSW.QC.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="QFSW.QC.Parsers.csproj">
+      <Project>{F883D865-C80A-55AD-FEEC-CC9AE4147162}</Project>
+      <Name>QFSW.QC.Parsers</Name>
+    </ProjectReference>
+    <ProjectReference Include="QFSW.QC.Editor.csproj">
+      <Project>{955E9775-65D3-9D36-4F6A-F6E53DF2926E}</Project>
+      <Name>QFSW.QC.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="QFSW.QC.Editor.Tools.csproj">
+      <Project>{B48492DE-6327-2BD3-7C77-CE384E733914}</Project>
+      <Name>QFSW.QC.Editor.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="QFSW.QC.Extras.csproj">
+      <Project>{2202C18C-540F-7886-34D4-D9388AB3FB38}</Project>
+      <Name>QFSW.QC.Extras</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

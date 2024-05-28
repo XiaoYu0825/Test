@@ -8,6 +8,10 @@ public class MessageType
     {
        
     }
+    public struct Test
+    {
+
+    }
     public struct NetConnected
     {
         public ServerEnum serverEnum;

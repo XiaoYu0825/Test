@@ -1,0 +1,9 @@
+[
+  {
+    "ID": 1,
+    "Description": "默认角色id",
+    "Name": "DefaultRoleID",
+    "FloatValue": 1001.0,
+    "StringValue": ""
+  }
+]

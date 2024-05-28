@@ -1,0 +1,50 @@
+[
+  {
+    "ID": 1,
+    "Description": "HP=体质×10+角色基础血量+系数A×人物等级",
+    "CoefficientA": 4.0,
+    "CoefficientB": 0.0,
+    "IntervalEvasion": []
+  },
+  {
+    "ID": 2,
+    "Description": "F(lv)=防御+系数A×自身等级",
+    "CoefficientA": 50.0,
+    "CoefficientB": 0.0,
+    "IntervalEvasion": []
+  },
+  {
+    "ID": 3,
+    "Description": "f(lv)=抗性+系数A×自身等级",
+    "CoefficientA": 5.0,
+    "CoefficientB": 0.0,
+    "IntervalEvasion": []
+  },
+  {
+    "ID": 4,
+    "Description": "敏捷区间范围",
+    "CoefficientA": 0.0,
+    "CoefficientB": 0.0,
+    "IntervalEvasion": [
+      0.0,
+      99.0,
+      0.001,
+      100.0,
+      499.0,
+      0.00025,
+      500.0,
+      999.0,
+      0.0002,
+      1000.0,
+      8000.0,
+      0.0001
+    ]
+  },
+  {
+    "ID": 8,
+    "Description": "格挡成功固定减伤百分比",
+    "CoefficientA": 0.3,
+    "CoefficientB": 0.0,
+    "IntervalEvasion": []
+  }
+]
