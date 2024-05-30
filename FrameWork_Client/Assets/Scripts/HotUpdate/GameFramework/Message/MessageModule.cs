@@ -11,8 +11,8 @@ public class MessageModule : BaseGameModule
 
     public delegate Task MessageHandlerEventArgs<T>(T arg);
 
-    private Dictionary<Type, List<object>> globalMessageHandlers;
-    private Dictionary<Type, List<object>> localMessageHandlers;
+    private Dictionary<Type, List<object>> globalMessageHandlers;//用于存储全局的消息或事件处理程序
+    private Dictionary<Type, List<object>> localMessageHandlers;//用于局部存储消息或事件的处理程序
 
 
     public Monitor Monitor { get; private set; }

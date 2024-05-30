@@ -42,9 +42,10 @@ public partial class UIModule : BaseGameModule
 
     private static void CacheUIMapping()//用于缓存UI视图与Mediator和Asset之间的映射关系
     {
+        Debug.Log("888888888888888");
         if (MEDIATOR_MAPPING != null)
             return;
-
+        Debug.Log("88888888888888811111111111111");
         MEDIATOR_MAPPING = new Dictionary<UIViewID, Type>();
         ASSET_MAPPING = new Dictionary<UIViewID, Type>();
 
@@ -96,14 +97,14 @@ public partial class UIModule : BaseGameModule
 
     private int GetTopMediatorSortingOrder(UIMode mode)
     {
-        int lastIndexMediatorOfMode = -1;
+        int lastIndexMediatorOfMode = -1;//存储与给定 UIMode 匹配的 UIMediator 在 usingMediators 列表中的最后一个索引
         for (int i = usingMediators.Count - 1; i >= 0; i--)
         {
             UIMediator mediator = usingMediators[i];//最后一个元素开始，向前遍历。usingMediators是一个包含UIMediator对象的列表
             if (mediator.UIMode != mode)//UIMode是否与给定的mode相同
                 continue;
 
-            lastIndexMediatorOfMode = i;
+            lastIndexMediatorOfMode = i;// 更新 lastIndexMediatorOfMode 的值为当前索引 i
             break;
         }
 
@@ -127,7 +128,7 @@ public partial class UIModule : BaseGameModule
         {
             mediatorQ = new Queue<UIMediator>();
             freeMediators.Add(mediatorType, mediatorQ);
-        }
+        }    
 
         UIMediator mediator;
         if (mediatorQ.Count == 0)
@@ -136,6 +137,7 @@ public partial class UIModule : BaseGameModule
         }
         else
         {
+            Debug.Log("ssssssssssssssss");
             mediator = mediatorQ.Dequeue();//有可用的对象，则从队列中取出一个
         }
 
@@ -156,7 +158,7 @@ public partial class UIModule : BaseGameModule
         mediatorQ.Enqueue(mediator);
     }
 
-    public UIMediator GetOpeningUIMediator(UIViewID id) //
+    public UIMediator GetOpeningUIMediator(UIViewID id) //获取打开的Mediator
     {
         UIConfig uiConfig = UIConfig.ByID((int)id);
         if (uiConfig.IsNull)
@@ -214,7 +216,7 @@ public partial class UIModule : BaseGameModule
 
     public UIMediator OpenUI(UIViewID id, object arg = null)//打开或加载一个具有特定UIViewID的UI界面
     {
-        UnityLog.Info("111111111111111////" + id.ToString());
+        Debug.Log("111111111111111////" + id.ToString());
         UIConfig uiConfig = UIConfig.ByID((int)id);//传入id的整数值，获取对应的UIConfig对象
         if (uiConfig.IsNull)
             return null;
@@ -222,12 +224,13 @@ public partial class UIModule : BaseGameModule
         UIMediator mediator = GetMediator(id);
         if (mediator == null)
             return null;
-
+        Debug.Log("11111111111111111111111111111111111111111111111111111111");
         GameObject uiObject = (uiObjectPool.LoadGameObject(uiConfig.Asset, (obj) =>
         {
             UIView newView = obj.GetComponent<UIView>();
             mediator.InitMediator(newView);
         })).gameObject;
+
         return OnUIObjectLoaded(mediator, uiConfig, uiObject, arg);
     }
 
@@ -239,7 +242,7 @@ public partial class UIModule : BaseGameModule
         }
     }
 
-    public IEnumerator OpenUIAsync(UIViewID id, object arg = null)
+    public IEnumerator OpenUIAsync(UIViewID id, object arg = null)//异步打开界面
     {
         UIConfig uiConfig = UIConfig.ByID((int)id);
         if (uiConfig.IsNull)
@@ -268,7 +271,7 @@ public partial class UIModule : BaseGameModule
         yield return null;
     }
 
-    private UIMediator OnUIObjectLoaded(UIMediator mediator, UIConfig uiConfig, GameObject uiObject, object obj)
+    private UIMediator OnUIObjectLoaded(UIMediator mediator, UIConfig uiConfig, GameObject uiObject, object obj)//加载预制体
     {
         if (uiObject == null)
         {

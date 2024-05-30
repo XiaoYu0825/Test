@@ -19,5 +19,6 @@ public class TestUIMedediator : UIMediator<TestUIView>
     private void OnTestButton(object[] args)
     {
         Debug.Log("°´Å¥µã»÷");
+        GameManager.UI.CloseUI(UIViewID.TestPanel);
     }
 }

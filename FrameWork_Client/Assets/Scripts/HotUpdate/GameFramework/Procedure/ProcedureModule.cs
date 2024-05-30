@@ -15,8 +15,8 @@ public partial class ProcedureModule : BaseGameModule
     public bool IsRunning { get; private set; }//是否有程序流程正在运行
     public bool IsChangingProcedure { get; private set; }//是否正在改变程序流程
 
-    private Dictionary<Type, BaseProcedure> procedures;
-    private BaseProcedure defaultProcedure;
+    private Dictionary<Type, BaseProcedure> procedures;//存储所有以创建的流程，键是流程类型，值是流程实例
+    private BaseProcedure defaultProcedure;//默认流程实例
     private ObjectPool<ChangeProcedureRequest> changeProcedureRequestPool = new ObjectPool<ChangeProcedureRequest>(null);//对象池，用于存储和管理ChangeProcedureRequest对象的创建和回收
     private Queue<ChangeProcedureRequest> changeProcedureQ = new Queue<ChangeProcedureRequest>(); //一个队列，可能用于按顺序处理改变程序流程的请求
 
@@ -103,12 +103,12 @@ public partial class ProcedureModule : BaseGameModule
         changeProcedureRequest.Value = value;
         changeProcedureQ.Enqueue(changeProcedureRequest);
 
-        if (!IsChangingProcedure)
+        if (!IsChangingProcedure)//当前没有程序流程切换正在进行
         {
             await ChangeProcedureInternal();
         }
     }
-    private async Task ChangeProcedureInternal()
+    private async Task ChangeProcedureInternal()//管理不同的程序流程或状态之间的切换
     {
         if (IsChangingProcedure)// 标志为true，表示当前已经有程序流程切换正在进行中
             return;

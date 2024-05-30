@@ -7,8 +7,8 @@ using System.Collections.Generic;
 /// </summary>
 public class ProtocolPool : Singleton<ProtocolPool>
 {
-    public Dictionary<Type, BaseProtocol> protocol_list;
-    public Dictionary<ushort, BaseProtocol> protocol_list_by_type;
+    public Dictionary<Type, BaseProtocol> protocol_list;//存储已经创建的协议实例
+    public Dictionary<ushort, BaseProtocol> protocol_list_by_type;//通过消息类型快速查找和访问对应的协议实例
 
     public void Init()
     {

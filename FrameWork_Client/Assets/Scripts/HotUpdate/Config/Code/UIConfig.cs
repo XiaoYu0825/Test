@@ -5,10 +5,11 @@ namespace Config
 {
     public partial struct UIConfig
     {
-        public static void DeserializeByAddressable(string directory)
+        public static void DeserializeByAddressable(string directory)//从指定路径加载 JSON 文件，并将其反序列化为 UIConfig 对象的列表 
         {
             UnityLog.Info("121212121");
             string path = $"{directory}/UIConfig.json";
+            //异步加载指定路径下的 TextAsset（文本资源）。WaitForCompletion() 方法会等待异步操作完成并返回加载的资源
             UnityEngine.TextAsset ta = Addressables.LoadAssetAsync<UnityEngine.TextAsset>(path).WaitForCompletion();
             string json = ta.text;
             datas = new List<UIConfig>();
@@ -23,6 +24,7 @@ namespace Config
                 indexMap.Add(data.ID, i);
             }
         }
+        //从指定的文件路径加载一个 JSON 文件，并将该文件的内容反序列化为 UIConfig 对象的列表
         public static void DeserializeByFile(string directory)
         {
             string path = $"{directory}/UIConfig.json";
@@ -45,6 +47,8 @@ namespace Config
                 }
             }
         }
+        //使用协程（Coroutine）来异步加载并反序列化一个存储在 AssetBundle 中的 JSON 文件 。
+        //directory（可能表示 AssetBundle 的目录）和 subFolder（子文件夹路径）
         public static System.Collections.IEnumerator DeserializeByBundle(string directory, string subFolder)
         {
             string bundleName = $"{subFolder}/UIConfig.bytes".ToLower();

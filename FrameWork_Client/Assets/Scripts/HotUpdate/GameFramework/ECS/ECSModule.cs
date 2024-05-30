@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 public class ECSModule : BaseGameModule
 {
-    public ECSWorld World { get; private set; }
+    public ECSWorld World { get; private set; }//ECS世界。ECSWorld可能是一个包含所有实体、组件和系统的容器或上下文
 
     private Dictionary<Type, IAwakeSystem> awakeSystemMap;
     private Dictionary<Type, IDestroySystem> destroySystemMap;
