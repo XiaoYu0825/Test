@@ -9,23 +9,24 @@ public class ECSModule : BaseGameModule
 {
     public ECSWorld World { get; private set; }//ECS世界。ECSWorld可能是一个包含所有实体、组件和系统的容器或上下文
 
-    private Dictionary<Type, IAwakeSystem> awakeSystemMap;
-    private Dictionary<Type, IDestroySystem> destroySystemMap;
+    private Dictionary<Type, IAwakeSystem> awakeSystemMap;//字典映射了不同的类型到它们的唤醒系统
+    private Dictionary<Type, IDestroySystem> destroySystemMap;//这个字典映射了不同的类型到它们的销毁系统
 
-    private Dictionary<Type, IUpdateSystem> updateSystemMap;
-    private Dictionary<IUpdateSystem, List<ECSEntity>> updateSystemRelatedEntityMap;
+    private Dictionary<Type, IUpdateSystem> updateSystemMap; //字典分别映射了正常更新类型的更新系统
 
-    private Dictionary<Type, ILateUpdateSystem> lateUpdateSystemMap;
+    private Dictionary<IUpdateSystem, List<ECSEntity>> updateSystemRelatedEntityMap;//字典将更新系统映射到与之相关的实体列表
+
+    private Dictionary<Type, ILateUpdateSystem> lateUpdateSystemMap;//字典分别映射了延迟更新类型的更新系统
     private Dictionary<ILateUpdateSystem, List<ECSEntity>> lateUpdateSystemRelatedEntityMap;
 
-    private Dictionary<Type, IFixedUpdateSystem> fixedUpdateSystemMap;
+    private Dictionary<Type, IFixedUpdateSystem> fixedUpdateSystemMap;//字典分别映射了固定时长更新类型的更新系统
     private Dictionary<IFixedUpdateSystem, List<ECSEntity>> fixedUpdateSystemRelatedEntityMap;
 
-    private Dictionary<long, ECSEntity> entities = new Dictionary<long, ECSEntity>();
-    private Dictionary<Type, List<IEntityMessageHandler>> entityMessageHandlerMap;
-    private Dictionary<Type, IEntityRpcHandler> entityRpcHandlerMap;
+    private Dictionary<long, ECSEntity> entities = new Dictionary<long, ECSEntity>();//字典映射了实体的唯一标识符
+    private Dictionary<Type, List<IEntityMessageHandler>> entityMessageHandlerMap;//字典映射了消息类型到处理这些消息的消息处理器列表
+    private Dictionary<Type, IEntityRpcHandler> entityRpcHandlerMap;//字典映射了RPC类型到处理这些RPC的处理器
 
-    
+
     protected internal override void OnModuleInit()
     {
         base.OnModuleInit();
@@ -51,7 +52,6 @@ public class ECSModule : BaseGameModule
         base.OnModuleFixedUpdate(deltaTime);
         DriveFixedUpdateSystem();
     }
-
     /// <summary>
     /// 模块初始化时调用
     /// </summary>
@@ -77,13 +77,13 @@ public class ECSModule : BaseGameModule
             if (type.IsAbstract)
                 continue;
 
-            if (type.GetCustomAttribute<ECSSystemAttribute>(true) != null)
+            if (type.GetCustomAttribute<ECSSystemAttribute>(true) != null)//判断type中是否ECSSystemAttribute类型的特性
             {
                 // AwakeSystem
                 Type awakeSystemType = typeof(IAwakeSystem);//获取IAwakeSystem类型
-                if (awakeSystemType.IsAssignableFrom(type))//type是否是IAwakeSystem类型
+                if (awakeSystemType.IsAssignableFrom(type))//type是IAwakeSystem接口或该接口的实现类
                 {
-                    if (awakeSystemMap.ContainsKey(type))
+                    if (awakeSystemMap.ContainsKey(type))//判断awakeSystemMap字典key是否有type类型
                     {
                         UnityLog.Error($"Duplicated Awake System:{type.FullName}");
                         continue;
@@ -94,76 +94,76 @@ public class ECSModule : BaseGameModule
                 }
 
                 // DestroySystem
-                Type destroySystemType = typeof(IDestroySystem);
-                if (destroySystemType.IsAssignableFrom(type))
+                Type destroySystemType = typeof(IDestroySystem);//获取IDestroySystem类型
+                if (destroySystemType.IsAssignableFrom(type))//type是IDestroySystem接口或该接口的实现类
                 {
-                    if (destroySystemMap.ContainsKey(type))
+                    if (destroySystemMap.ContainsKey(type))//判断destroySystemMap字典key是否有type类型
                     {
                         UnityLog.Error($"Duplicated Destroy System:{type.FullName}");
                         continue;
                     }
 
-                    IDestroySystem destroySytem = Activator.CreateInstance(type) as IDestroySystem;
+                    IDestroySystem destroySytem = Activator.CreateInstance(type) as IDestroySystem;//创建实例
                     destroySystemMap.Add(type, destroySytem);
                 }
 
                 // UpdateSystem
-                Type updateSystemType = typeof(IUpdateSystem);
-                if (updateSystemType.IsAssignableFrom(type))
+                Type updateSystemType = typeof(IUpdateSystem);//获取IUpdateSystem类型
+                if (updateSystemType.IsAssignableFrom(type))//type是IUpdateSystem接口或该接口的实现类
                 {
-                    if (updateSystemMap.ContainsKey(type))
+                    if (updateSystemMap.ContainsKey(type))//判断updateSystemMap字典key是否有type类型
                     {
                         UnityLog.Error($"Duplicated Update System:{type.FullName}");
                         continue;
                     }
 
-                    IUpdateSystem updateSystem = Activator.CreateInstance(type) as IUpdateSystem;
+                    IUpdateSystem updateSystem = Activator.CreateInstance(type) as IUpdateSystem;//创建实例
                     updateSystemMap.Add(type, updateSystem);
 
                     updateSystemRelatedEntityMap.Add(updateSystem, new List<ECSEntity>());
                 }
 
                 // LateUpdateSystem
-                Type lateUpdateSystemType = typeof(ILateUpdateSystem);
-                if (lateUpdateSystemType.IsAssignableFrom(type))
+                Type lateUpdateSystemType = typeof(ILateUpdateSystem);//获取ILateUpdateSystem类型
+                if (lateUpdateSystemType.IsAssignableFrom(type))//type是ILateUpdateSystem接口或该接口的实现类
                 {
-                    if (lateUpdateSystemMap.ContainsKey(type))
+                    if (lateUpdateSystemMap.ContainsKey(type))//判断lateUpdateSystemMap字典key是否有type类型
                     {
                         UnityLog.Error($"Duplicated Late update System:{type.FullName}");
                         continue;
                     }
 
-                    ILateUpdateSystem lateUpdateSystem = Activator.CreateInstance(type) as ILateUpdateSystem;
+                    ILateUpdateSystem lateUpdateSystem = Activator.CreateInstance(type) as ILateUpdateSystem;//创建实例
                     lateUpdateSystemMap.Add(type, lateUpdateSystem);
 
                     lateUpdateSystemRelatedEntityMap.Add(lateUpdateSystem, new List<ECSEntity>());
                 }
 
                 // FixedUpdateSystem
-                Type fixedUpdateSystemType = typeof(IFixedUpdateSystem);
-                if (fixedUpdateSystemType.IsAssignableFrom(type))
+                Type fixedUpdateSystemType = typeof(IFixedUpdateSystem);//获取IFixedUpdateSystem类型
+                if (fixedUpdateSystemType.IsAssignableFrom(type))//type是IFixedUpdateSystem接口或该接口的实现类
                 {
-                    if (fixedUpdateSystemMap.ContainsKey(type))
+                    if (fixedUpdateSystemMap.ContainsKey(type))//判断fixedUpdateSystemMap字典key是否有type类型
                     {
                         UnityLog.Error($"Duplicated Late update System:{type.FullName}");
                         continue;
                     }
 
-                    IFixedUpdateSystem fixedUpdateSystem = Activator.CreateInstance(type) as IFixedUpdateSystem;
+                    IFixedUpdateSystem fixedUpdateSystem = Activator.CreateInstance(type) as IFixedUpdateSystem;//创建实例
                     fixedUpdateSystemMap.Add(type, fixedUpdateSystem);
 
                     fixedUpdateSystemRelatedEntityMap.Add(fixedUpdateSystem, new List<ECSEntity>());
                 }
             }
 
-            if (type.GetCustomAttribute<EntityMessageHandlerAttribute>(true) != null)
+            if (type.GetCustomAttribute<EntityMessageHandlerAttribute>(true) != null)//判断type中是否ECSSystemAttribute类型的特性
             {
                 // EntityMessage
-                Type entityMessageType = typeof(IEntityMessageHandler);
-                if (entityMessageType.IsAssignableFrom(type))
+                Type entityMessageType = typeof(IEntityMessageHandler);//获取IEntityMessageHandler类型
+                if (entityMessageType.IsAssignableFrom(type))//type是IEntityMessageHandler接口或该接口的实现类
                 {
-                    IEntityMessageHandler entityMessageHandler = Activator.CreateInstance(type) as IEntityMessageHandler;
-
+                    IEntityMessageHandler entityMessageHandler = Activator.CreateInstance(type) as IEntityMessageHandler;//创建实例
+                    
                     if (!entityMessageHandlerMap.TryGetValue(entityMessageHandler.MessageType(), out List<IEntityMessageHandler> list))
                     {
                         list = new List<IEntityMessageHandler>();
@@ -174,15 +174,15 @@ public class ECSModule : BaseGameModule
                 }
             }
 
-            if (type.GetCustomAttribute<EntityRpcHandlerAttribute>(true) != null)
+            if (type.GetCustomAttribute<EntityRpcHandlerAttribute>(true) != null)//判断type中是否EntityRpcHandlerAttribute类型的特性
             {
                 // EntityRPC
-                Type entityMessageType = typeof(IEntityRpcHandler);
-                if (entityMessageType.IsAssignableFrom(type))
+                Type entityMessageType = typeof(IEntityRpcHandler);//获取IEntityRpcHandler类型
+                if (entityMessageType.IsAssignableFrom(type))//type是IEntityRpcHandler接口或该接口的实现类
                 {
-                    IEntityRpcHandler entityRpcHandler = Activator.CreateInstance(type) as IEntityRpcHandler;
+                    IEntityRpcHandler entityRpcHandler = Activator.CreateInstance(type) as IEntityRpcHandler;//创建实例
 
-                    if (entityRpcHandlerMap.ContainsKey(entityRpcHandler.RpcType()))
+                    if (entityRpcHandlerMap.ContainsKey(entityRpcHandler.RpcType()))//判断entityRpcHandlerMap字典key是否有entityRpcHandler类型
                     {
                         UnityLog.Error($"Duplicate Entity Rpc, type:{entityRpcHandler.RpcType().FullName}");
                         continue;
@@ -293,23 +293,35 @@ public class ECSModule : BaseGameModule
     /// <param name="component"></param>
     public void AwakeComponent<C>(C component) where C : ECSComponent
     {
+        // 更新与给定组件实体相关联的系统实体列表。
         UpdateSystemEntityList(component.Entity);
-
+        //从对象池中获取一个IAwakeSystem类型的列表。
         List<IAwakeSystem> list = ListPool<IAwakeSystem>.Obtain();
+        // 获取与组件类型C相关的所有唤醒系统，并将它们添加到列表中
         GetAwakeSystems<C>(list);
 
+        // 标记是否找到了匹配的唤醒系统。
         bool found = false;
+
+        // 遍历列表中的每个唤醒系统。
         foreach (var item in list)
         {
+            // 尝试将当前系统转换为特定于组件类型C的唤醒系统。
             AwakeSystem<C> awakeSystem = item as AwakeSystem<C>;
             if (awakeSystem == null)
-                continue;
+                continue; // 如果转换失败（即系统不匹配组件类型C），则继续下一个系统。
 
+            // 调用匹配到的唤醒系统的Awake方法，传递组件作为参数。
             awakeSystem.Awake(component);
+
+            // 标记已经找到了匹配的唤醒系统。
             found = true;
         }
 
+        // 将使用过的列表返回到对象池，以供后续使用。
         ListPool<IAwakeSystem>.Release(list);
+
+        // 如果没有找到匹配的唤醒系统，则记录警告日志。
         if (!found)
         {
             UnityLog.Warn($"Not found awake system:<{typeof(C).Name}>");
@@ -365,6 +377,11 @@ public class ECSModule : BaseGameModule
             UnityLog.Warn($"Not found awake system:<{typeof(C).Name}, {typeof(P1).Name}, {typeof(P2).Name}>");
         }
     }
+    /// <summary>
+    /// 获取并返回一组实现了 IDestroySystem 接口的系统
+    /// </summary>
+    /// <typeparam name="C"></typeparam>
+    /// <param name="list"></param>
 
     private void GetDestroySystems<C>(List<IDestroySystem> list) where C : ECSComponent
     {
@@ -386,6 +403,11 @@ public class ECSModule : BaseGameModule
             }
         }
     }
+    /// <summary>
+    /// 处理实体组件系统（ECS）中组件的销毁逻辑
+    /// </summary>
+    /// <typeparam name="C"></typeparam>
+    /// <param name="component"></param>
     public void DestroyComponent<C>(C component) where C : ECSComponent
     {
         UpdateSystemEntityList(component.Entity);

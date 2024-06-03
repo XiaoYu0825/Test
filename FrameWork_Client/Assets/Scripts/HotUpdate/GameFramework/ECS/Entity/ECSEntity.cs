@@ -46,7 +46,9 @@ public class ECSEntity : IDisposable
         InstanceID = IDGenerator.NewInstanceID();
         TGameFramework.Instance.GetModule<ECSModule>().AddEntity(this);
     }
-
+    /// <summary>
+    /// 销毁
+    /// </summary>
     public virtual void Dispose()
     {
         if (Disposed)
@@ -80,18 +82,30 @@ public class ECSEntity : IDisposable
         // 从世界中移除
         TGameFramework.Instance.GetModule<ECSModule>().RemoveEntity(this);
     }
-
+    /// <summary>
+    /// 是否包含 C类型组件
+    /// </summary>
+    /// <typeparam name="C"></typeparam>
+    /// <returns></returns>
     public bool HasComponent<C>() where C : ECSComponent
     {
         return componentMap.ContainsKey(typeof(C));
     }
-
+    /// <summary>
+    /// 获取C类型组件
+    /// </summary>
+    /// <typeparam name="C"></typeparam>
+    /// <returns></returns>
     public C GetComponent<C>() where C : ECSComponent
     {
         componentMap.TryGetValue(typeof(C), out var component);
         return component as C;
     }
-
+    /// <summary>
+    /// 实体添加新的组件
+    /// </summary>
+    /// <typeparam name="C"></typeparam>
+    /// <returns></returns>
     public C AddNewComponent<C>() where C : ECSComponent, new()
     {
         if (HasComponent<C>())
@@ -105,7 +119,13 @@ public class ECSEntity : IDisposable
         TGameFramework.Instance.GetModule<ECSModule>().AwakeComponent(component);
         return component;
     }
-
+    /// <summary>
+    /// 实体添加新的组件 两个类型参数
+    /// </summary>
+    /// <typeparam name="C"></typeparam>
+    /// <typeparam name="P1"></typeparam>
+    /// <param name="p1"></param>
+    /// <returns></returns>
     public C AddNewComponent<C, P1>(P1 p1) where C : ECSComponent, new()
     {
         if (HasComponent<C>())
@@ -133,7 +153,11 @@ public class ECSEntity : IDisposable
         TGameFramework.Instance.GetModule<ECSModule>().AwakeComponent(component, p1, p2);
         return component;
     }
-
+    /// <summary>
+    /// 实体添加组件
+    /// </summary>
+    /// <typeparam name="C"></typeparam>
+    /// <returns></returns>
     public C AddComponent<C>() where C : ECSComponent, new()
     {
         if (HasComponent<C>())
@@ -178,7 +202,10 @@ public class ECSEntity : IDisposable
         TGameFramework.Instance.GetModule<ECSModule>().AwakeComponent(component, p1, p2);
         return component;
     }
-
+    /// <summary>
+    /// 实体删除组件
+    /// </summary>
+    /// <typeparam name="C"></typeparam>
     public void RemoveComponent<C>() where C : ECSComponent, new()
     {
         Type componentType = typeof(C);
@@ -208,7 +235,10 @@ public class ECSEntity : IDisposable
         componentMap.Remove(componentType);
         TGameFramework.Instance.GetModule<ECSModule>().DestroyComponent((C)component, p1, p2);
     }
-
+    /// <summary>
+    /// 添加当前实体的子实体
+    /// </summary>
+    /// <param name="child"></param>
     public void AddChild(ECSEntity child)
     {
         if (child == null)
@@ -217,16 +247,19 @@ public class ECSEntity : IDisposable
         if (child.Disposed)
             return;
 
-        ECSEntity oldParent = child.Parent;
+        ECSEntity oldParent = child.Parent;//子实体的父实体
         if (oldParent != null)
         {
-            oldParent.RemoveChild(child);
+            oldParent.RemoveChild(child);//移除 child 作为其子实体
         }
 
         children.Add(child);
         child.ParentID = InstanceID;
     }
-
+    /// <summary>
+    /// 删除子实体
+    /// </summary>
+    /// <param name="child"></param>
     public void RemoveChild(ECSEntity child)
     {
         if (child == null)
@@ -235,7 +268,12 @@ public class ECSEntity : IDisposable
         children.Remove(child);
         child.ParentID = 0;
     }
-
+    /// <summary>
+    /// 根据InstanceID查找子实体
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <param name="id"></param>
+    /// <returns></returns>
     public T FindChild<T>(long id) where T : ECSEntity
     {
         foreach (var child in children)
@@ -246,16 +284,21 @@ public class ECSEntity : IDisposable
 
         return default;
     }
-
+    /// <summary>
+    /// 前实体的子实体集合中查找第一个满足特定条件的子实体
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <param name="predicate"></param>
+    /// <returns></returns>
     public T FindChild<T>(Predicate<T> predicate) where T : ECSEntity
     {
         foreach (var child in children)
         {
-            T c = child as T;
+            T c = child as T;//当前子实体 child 转换为类型 T
             if (c == null)
                 continue;
 
-            if (predicate.Invoke(c))
+            if (predicate.Invoke(c))//调用传入的 predicate 委托，并将转换后的子实体 c 作为参数传入
             {
                 return c;
             }
@@ -263,7 +306,11 @@ public class ECSEntity : IDisposable
 
         return default;
     }
-
+    /// <summary>
+    /// 查找当前实体的所有子实体中属于指定类型 T 的子实体
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
+    /// <param name="list"></param>
     public void FindChildren<T>(List<T> list) where T : ECSEntity
     {
         foreach (var child in children)

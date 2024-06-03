@@ -434,6 +434,7 @@
 "Assets/Scripts/HotUpdate/Config/Code/UIMode.cs"
 "Assets/Scripts/HotUpdate/Game/Player/PlayerInfoComponent.cs"
 "Assets/Scripts/HotUpdate/Game/Proto/UserInfo.cs"
+"Assets/Scripts/HotUpdate/Game/Test/TestComponent.cs"
 "Assets/Scripts/HotUpdate/Game/UI/TestUI/TestUIMedediator.cs"
 "Assets/Scripts/HotUpdate/Game/UI/TestUI/TestUIMessageHandler.cs"
 "Assets/Scripts/HotUpdate/Game/UI/TestUI/TestUIView.cs"

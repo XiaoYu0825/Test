@@ -43,6 +43,7 @@ public class GameManager : MonoBehaviour
         TGameFramework.Instance.InitModules();
 
         ConfigManager.LoadAllConfigsByAddressable("Assets/BundleAssets/Config");
+        ECS.World.AddComponent<TestComponent>();
     }
     
     public void StartupModules()//查找和初始化所有从BaseGameModule派生的组件
